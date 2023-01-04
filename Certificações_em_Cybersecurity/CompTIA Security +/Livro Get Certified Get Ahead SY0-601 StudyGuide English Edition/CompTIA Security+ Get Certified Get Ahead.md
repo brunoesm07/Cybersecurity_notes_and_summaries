@@ -1,0 +1,106 @@
+
+
+Confidentiality ensures that data is only viewable by authorized users. The best way to protect the confidentiality of data is by encrypting it. This includes any type of data, such as PII, data in databases, and data on mobile devices. Access controls help protect confidentiality by restricting access.
+
+
+Integrity verifies that data has not been modified. Loss of integrity can occur through unauthorized or unintended changes. Hashing algorithms, such as SHA, calculate hashes to verify integrity. A hash is simply a number created by applying the algorithm to a file or message at different times. By comparing the hashes, you
+can verify integrity has been maintained.
+
+
+Availability ensures that systems are up and operational when needed and often addresses single points of failure. You can increase availability by adding fault tolerance and redundancies, such as RAID, failover clusters, backups, and generators.
+
+
+Scalability is a system's ability to handle increased workload either by scaling up or by scaling out.
+
+
+Elasticity is the ability of a system to handle an increased workload by dynamically scaling up or scaling out as the need arises.
+
+
+Redundancy and fault tolerance methods increase the availability of systems and data. Scalability refers to manually adding or removing resources to a system to scale it up or out. Elasticity refers to dynamically adding or removing resources to a system to scale it.
+
+
+Risk is the likelihood that a threat will exploit a vulnerability. Risk mitigation reduces the chances that a threat will exploit a vulnerability or reduces the risk’s impact by implementing security controls.
+
+
+
+Security controls are categorized as managerial (documented in written policies), operational (performed in day-to-day operations), or technical (implemented with technology).
+
+
+Managerial controls are administrative in function and documented in security policies. Operational controls are implemented by people who perform the day-to-day operations to comply with an organization’s overall security plan.
+
+
+Technical controls use technology to reduce vulnerabilities. Some examples include encryption, antivirus software, IDSs, IPSs, firewalls, and the least privilege principle. Physical security and environmental controls include motion detectors and fire suppression systems.
+
+
+Preventative controls attempt to prevent security incidents. Hardening systems modifies the basic configuration to increase security. Security guards can prevent unauthorized personnel from entering a secure area. Change management processes help prevent outages from configuration changes. An account disablement policy ensures that accounts are disabled when a user leaves the organization.
+
+
+Detective controls attempt to detect when vulnerabilities have been exploited. Some examples include log monitoring, trend analysis, security audits, and CCTV systems.
+
+
+Administrators use ping to check the connectivity of remote systems and verify name resolution is working. They also use ping to check systems and networks’ security posture by verifying that routers, firewalls, and IPSs block ICMP traffic when configured to do so.
+
+
+Windows systems use ipconfig to view network interfaces. Linux systems use ifconfig, and ifconfig can also manipulate the settings on the network interfaces. You can enable promiscuous mode on a NIC with ifconfig.
+
+The ip command is recommended in place of ifconfig in many situations, such as viewing and manipulating NIC settings.
+
+
+Comparing Identification and AAA Authentication, authorization, and accounting (AAA) work together with identification to provide a comprehensive access management system. If you understand identification (claiming an identity, such as with a username) and authentication (proving the identity, such as with a password), it’s easier to add in the other two elements of AAA—authorization and accounting.
+
+
+Identification occurs when a user claims an identity, such as with a username or email address. Authentication occurs when the user proves the claimed identity (such as with a password) and the credentials are verified (such as with a password). Access control systems provide authorization by granting access to resources based on
+permissions granted to the proven identity. Logging provides accounting.
+
+
+Complex passwords use a mix of character types. Strong passwords use a mix of character types and have a minimum password length of at least eight characters. A password expiration identifies when a password must be changed.
+
+
+Account lockout policies thwart some password attacks, such as brute force and dictionary attackers. Many applications and devices have default passwords. These should be changed before putting the application or device into service.
+
+
+
+Smart cards are often used with dual-factor authentication where users have something (the smart card) and know something (such as a password or PIN). Smart cards include embedded certificates used with digital signatures and encryption. They are used to gain access to secure locations and to log on to computer systems.
+
+
+
+HOTP and TOTP are open source standards used to create one-time-use passwords. HOTP creates a one-time- use password that does not expire until it is used, and TOTP creates a one-time password that expires after 30 seconds. Both can be used as software tokens for authentication.
+
+
+Two-step verification methods typically use a PIN retrieved from a user’s smartphone. They can be sent via SMS, a phone call, a push notification, or retrieved from an authentication application.
+
+
+The third factor of authentication (something you are, defined with biometrics) is the strongest individual authentication factor. Biometric methods include fingerprints, palm veins, retina scans, iris scans, voice recognition, facial recognition, and gait analysis.
+
+
+Iris and retina scans are the strongest biometric methods mentioned in this section, though iris scans are used instead of retina scans because retina scans are intrusive and reveal private medical issues. Facial recognition and gait analysis can bypass the enrollment process when done for identification instead of authorization.
+
+
+Using two or more methods in the same factor of authentication (such as a PIN and a password) is single-factor authentication. Dual-factor (or two-factor) authentication uses two different authentication factors, such as using a hardware token and a PIN. Multifactor authentication uses two or more factors.
+
+
+An important concept to remember when creating accounts is to give users only the account permissions they need to perform their job, and no more.
+
+
+Privileged access management (PAM) systems implement stringent security controls over accounts with elevated privileges such as administrator or root-level accounts. Some capabilities include allowing authorized users to access the administrator account without knowing the password, logging all elevated privileges usage, and automatically changing the administrator account password.
+
+
+Requiring administrators to use two accounts, one with administrator privileges and another with regular user privileges, helps prevent privilege escalation attacks. Users should not use shared accounts.
+
+
+Requiring administrators to use two accounts, one with administrator privileges and another with regular user privileges, helps prevent privilege escalation attacks. Users should not use shared accounts.
+
+
+
+An account disablement policy identifies what to do with accounts for employees who leave permanently or are on a leave of absence. Most policies require administrators to disable the account as soon as possible so that ex-employees cannot use the account. Disabling the account ensures that data associated with it remains available. Security keys associated with an account remain available when the account is disabled, but the security keys (and data they encrypted) are no longer accessible if it is deleted. Time-based login restrictions prevent users from logging on or accessing network resources during specific hours.
+
+
+Usage auditing records user activity in logs. A usage auditing review looks at the logs to see what users are doing and it can be used to re-create an audit trail. Permission auditing reviews help ensure that users have only the access they need and no more and can detect privilege creep issues.
+
+
+
+Usage auditing records user activity in logs. A usage auditing review looks at the logs to see what users are doing and it can be used to re-create an audit trail. Permission auditing reviews help ensure that users have only the access they need and no more and can detect privilege creep issues.
+
+
+
+Kerberos is a network authentication protocol within a Microsoft Windows Active Directory domain or a Unix realm. It uses a database of objects such as Active Directory and a KDC (or TGT server) to issue timestamped tickets that expire after a certain time period.
