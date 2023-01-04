@@ -1,6 +1,6 @@
 # Estudos em Cybersecurity
 
-Este repositório foi criado com o objetivo de compartilhar e manter uma fonte de conhecimento para interessados na área de cyber segurança e suas certificações, a partir dos meus estudos na área. O mesmo será constantemente abastecido com resumos e anotações de cursos, livros ou outras fontes de estudos conforme forem sidos utilizados.
+Este repositório foi criado com o objetivo de compartilhar e manter uma fonte de conhecimento para interessados na área de cyber segurança e suas certificações, a partir dos meus estudos na área. O mesmo será constantemente abastecido com resumos e anotações de cursos, livros ou outras fontes de estudos conforme forem sendo utilizados.
 
 ## Certificações em Cybersecurity
 #### [CERTIFIED IN CYBERSECURITY (CC) - (ISC)²](https://www.isc2.org/certified-in-cybersecurity?filter=featured&searchRoot=A82B5ABE5FF04271998AE8A4B5D7DEFD)
