@@ -4,4 +4,4 @@
 
 Labeling é a prática de anotar ativos com marcações de classificação. (ex: "Sensitive", "Proprietary", "Public")
 
-Dispositivos que frequentemente devem interagir com o ambiente externo (como um servidor de e-mail) geralmente ficam melhor situados na DMZ.
+

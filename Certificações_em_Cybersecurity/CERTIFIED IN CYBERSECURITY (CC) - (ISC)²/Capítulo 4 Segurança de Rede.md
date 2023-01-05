@@ -56,15 +56,17 @@ O modelo OSI divide as tarefas de rede em sete camadas distintas. Cada camada �
 
 #### Encapsulamento (Encapsulation)
 
+Execução de ocultação de dados e ocultação de código durante todas as fases de desenvolvimento de software e uso operacional.
+
 
 
 ## Transmission Control Protocol/Internet Protocol (TCP/IP)
 
-m
-
-O TCP/IP pode ser encontrado em quase todos os sistemas operacionais disponíveis, mas consome uma quantidade significativa de recursos e é relativamente fácil de invadir porque foi projetado para facilidade de uso e não para segurança.
+Modelo de protocolo de interconexão de redes criado pelo IETF, que especifica quatro camadas de funcionalidade: **Camada de enlace** (comunicações físicas), **Camada de Internet** (comunicação rede a rede), **Camada de transporte** (base canais para conexões e troca de dados sem conexão entre hosts), e **Camada de Aplicação**, onde outros protocolos e programas aplicativos do usuário fazem uso de serviços de rede.
 
 Na Camada de Aplicação, os protocolos TCP/IP incluem Telnet, Protocolo de Transferência de Arquivos (FTP), Protocolo Simples de Transporte de Correio (SMTP) e Serviço de Nome de Domínio (DNS) .
+
+O TCP/IP pode ser encontrado em quase todos os sistemas operacionais disponíveis, mas consome uma quantidade significativa de recursos e é relativamente fácil de invadir porque foi projetado para facilidade de uso e não para segurança.
 
 
 
@@ -108,6 +110,8 @@ A porta 53, Domain Name Service (DNS), ainda é amplamente utilizada. No entant
 
 ##### 80 - HTTP Protocolo de Transferência de Hipertexto
 A porta 80, HyperText Transfer Protocol (HTTP) é a base de quase todo o tráfego do navegador da web na Internet. As informações enviadas via HTTP não são criptografadas e são suscetíveis a ataques de sniffing. HTTPS usando criptografia TLS é o preferido, pois protege os dados em trânsito entre o servidor e o navegador.
+
+endpoint <------> Web server
 
 
 
@@ -164,9 +168,82 @@ Assim como o IDS, existem IPS baseados em rede (NIPS) e IPS baseados em host (HI
 
 
 
+## Cloud
+
+A computação em nuvem é geralmente associada a um conjunto de recursos de computação baseados na Internet e normalmente vendida como um serviço, fornecido por um provedor de serviços em nuvem (CSP). 
+
+A computação em nuvem tem muitos benefícios para as organizações, que incluem, mas não estão limitados a: 
+
+-   O uso é medido e cobrado de acordo com as unidades (ou instâncias) consumidas. Isso também pode ser cobrado de departamentos ou funções específicas.
+-   Custo de propriedade reduzido. Não há necessidade de comprar nenhum ativo para uso diário, nenhuma perda de valor do ativo ao longo do tempo e redução de outros custos relacionados de manutenção e suporte.
+-   Custos reduzidos de energia e resfriamento, juntamente com efeito de ambiente de “TI verde” com uso otimizado de recursos e sistemas de TI.
+-   Permite que uma empresa amplie novos softwares ou serviços/soluções baseados em dados por meio de sistemas em nuvem rapidamente e sem a necessidade de instalar hardware massivo localmente.
+
+Os tipos de modelos de serviços de computação em nuvem incluem Software como Serviço (SaaS) , Plataforma como Serviço (PaaS) e Infraestrutura como Serviço (IaaS) .
+
+##### Software como Serviço (SaaS)
+
+SaaS é um modelo distribuído em que os aplicativos de software são hospedados por um fornecedor ou provedor de serviços em nuvem e disponibilizados aos clientes por meio de recursos de rede.
+
+##### Plataforma como Serviço (PaaS)
+
+A PaaS é uma forma de os clientes alugarem hardware, sistemas operacionais, armazenamento e capacidade de rede pela Internet de um provedor de serviços em nuvem. A PaaS normalmente fornece um conjunto de blocos de construção de software e ferramentas de desenvolvimento, como linguagens de programação e suporte a um ambiente de tempo de execução, que facilitam a construção de aplicativos escaláveis ​​e de alta qualidade, fornecendo assim o ambiente mais adequado para os clientes criarem e operarem seu próprio software.
+
+##### Infraestrutura como Serviço (IaaS)
+
+Os modelos IaaS fornecem recursos básicos de computação aos consumidores. Isso inclui servidores, armazenamento e, em alguns casos, recursos de rede.
+
+
+### Modelos de Implantação
+
+##### Público
+
+Nuvens públicas são o que geralmente chamamos de nuvem para o usuário público. É muito fácil obter acesso a uma nuvem pública. Não existe um mecanismo real, além de solicitar e pagar pelo serviço em nuvem. É aberto ao público e, portanto, um recurso compartilhado que muitas pessoas poderão usar como parte de um pool de recursos. Um modelo de implantação de nuvem pública inclui ativos disponíveis para qualquer consumidor alugar ou arrendar e é hospedado por um provedor de serviços de nuvem (CSP) externo.
+
+##### Privado
+
+As nuvens privadas começam com o mesmo conceito técnico das nuvens públicas, exceto que, em vez de serem compartilhadas com o público, geralmente são desenvolvidas e implantadas por uma organização privada que constrói sua própria nuvem. Portanto, esse modelo de implantação inclui ativos baseados em nuvem para uma única organização.
+
+##### Hibrido
+
+Um modelo de implantação de nuvem híbrida é criado combinando duas formas de modelos de implantação de computação em nuvem, geralmente uma nuvem pública e uma privada.
 
 
 
+## Design de Rede
 
+O objetivo do projeto de rede é satisfazer os requisitos de comunicação de dados e resultar em um desempenho geral eficiente.
 
+##### Segmentação de Rede
 
+A segmentação de rede envolve o controle do tráfego entre dispositivos em rede. A segmentação completa ou física da rede ocorre quando uma rede é isolada de todas as comunicações externas, de modo que as transações só podem ocorrer entre dispositivos dentro da rede segmentada.
+
+##### Zona Desmilitarizada (DMZ)
+
+Uma DMZ é uma área de rede projetada para ser acessada por visitantes externos, mas ainda isolada da rede privada da organização. Com uma DMZ, os sistemas host acessíveis por meio do firewall são fisicamente separados da rede interna por meio de comutadores seguros ou usando um firewall adicional para controlar o tráfego entre o servidor da web e a rede interna.
+
+Dispositivos que frequentemente devem interagir com o ambiente externo (como um servidor de e-mail) geralmente ficam melhor situados na DMZ.
+
+##### Rede Local Virtual (VLAN)
+
+As VLANs são criadas por switches para segmentar logicamente uma rede sem alterar sua topologia física. Uma rede local virtual é um grupo lógico de estações de trabalho, servidores e dispositivos de rede que parecem estar na mesma LAN, apesar de sua distribuição geográfica.
+
+##### Rede Privada Virtual (VPN)
+
+Uma rede virtual privada (VPN) é um túnel de comunicação que fornece transmissão ponto a ponto de autenticação e tráfego de dados em uma rede não confiável.
+
+Os usuários remotos empregam VPNs para acessar a rede de sua organização e, dependendo da implementação da VPN, eles podem ter a maioria dos mesmos recursos disponíveis como se estivessem fisicamente no escritório.
+
+##### Defesa em Profundidade (Defense in Depth)
+
+A defesa em profundidade usa vários tipos de controles de acesso em camadas literais ou teóricas para ajudar uma organização a evitar uma postura de segurança monolítica.
+
+##### Controle de Acesso à Rede (Network Access Control - NAC)
+
+O controle de acesso à rede (NAC) é um conceito de controle de acesso a um ambiente por meio da estrita adesão e implementação da política de segurança. O objetivo é garantir que todos os dispositivos que pretendam aderir à rede só o façam quando cumprirem os requisitos definidos nas políticas da organização.
+
+**Exemplo**: O acesso à internet do hotel ou shopping centers. Normalmente, um usuário que se conecta a rede hoteleira ou shopping é obrigado a reconhecer a política de uso aceitável antes de ser autorizada a acessar a internet.
+
+##### Zero Trust
+
+As redes de confiança zero geralmente são redes microssegmentadas, com firewalls em quase todos os pontos de conexão. A confiança zero encapsula ativos de informação, os serviços que se aplicam a eles e suas propriedades de segurança. 
