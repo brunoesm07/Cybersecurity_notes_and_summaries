@@ -9,7 +9,7 @@ Este repositório foi criado com o objetivo de compartilhar e manter uma fonte d
 2. [Capítulo 2 Resposta a Incidentes, Continuidade de Negócios e Recuperação de Desastres](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Certifica%C3%A7%C3%B5es_em_Cybersecurity/CERTIFIED%20IN%20CYBERSECURITY%20(CC)%20-%20(ISC)%C2%B2/Cap%C3%ADtulo%202%20Resposta%20a%20Incidentes%2C%20Continuidade%20de%20Neg%C3%B3cios%20e%20Recupera%C3%A7%C3%A3o%20de%20Desastres.md)
 3. [Capítulo 3 Controle de acesso](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Certifica%C3%A7%C3%B5es_em_Cybersecurity/CERTIFIED%20IN%20CYBERSECURITY%20(CC)%20-%20(ISC)%C2%B2/Cap%C3%ADtulo%203%20Controle%20de%20acesso.md)
 4. [Capítulo 4 Segurança de Rede](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Certifica%C3%A7%C3%B5es_em_Cybersecurity/CERTIFIED%20IN%20CYBERSECURITY%20(CC)%20-%20(ISC)%C2%B2/Cap%C3%ADtulo%204%20Seguran%C3%A7a%20de%20Rede.md)
-5. Capítulo 5 Operações de Segurança
+5. [Capítulo 5 Operações de Segurança](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Certifica%C3%A7%C3%B5es_em_Cybersecurity/CERTIFIED%20IN%20CYBERSECURITY%20(CC)%20-%20(ISC)%C2%B2/Cap%C3%ADtulo%205%20Opera%C3%A7%C3%B5es%20de%20Seguran%C3%A7a.md)
 
 #### [CompTIA Security+](https://www.comptia.org/certifications/security)
 * [Notas do Livro CompTIA Security+ Get Certified Get Ahead](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Certifica%C3%A7%C3%B5es_em_Cybersecurity/CompTIA%20Security%20%2B/Livro%20Get%20Certified%20Get%20Ahead%20SY0-601%20StudyGuide%20English%20Edition/CompTIA%20Security%2B%20Get%20Certified%20Get%20Ahead.md)
