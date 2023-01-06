@@ -88,6 +88,11 @@ O WHOIS é um mecanismo que registra domínios, IPs e sistemas autônomos na int
 Tecnicamente falando, o WHOIS é um protocolo TCP que tem como objetivo  consultar contato e DNS. Ele apresenta, geralmente, três principais linhas de contato do dono de um website: o contato administrativo; o contato técnico; e o contato de cobrança. Além disso, são exibidos telefones e endereços físicos.
 
 
-MailTracking 
+**MailTracking**
+
 Pode-se utilizar o mail tracking para obter log de acesso de um determinado alvo, mas também é possível inserir arquivos .pdf, .png ou .doc para descobrir a versão dos aplicativos que o usuário utiliza para abrir tais arquivos.> MailTracking Pode-se utilizar o mail tracking para obter log de acesso de um determinado alvo, mas também é possível inserir arquivos .pdf, .png ou .doc para descobrir a versão dos aplicativos que o usuário utiliza para abrir tais arquivos.
-> 
+
+
+**Banner Grabbing**
+
+O Banner Grabbing, ou, em português, captura de banners, é uma técnica usada para recolher informações sobre um sistema de computador em uma rede e os serviços em execução em suas portas abertas.
