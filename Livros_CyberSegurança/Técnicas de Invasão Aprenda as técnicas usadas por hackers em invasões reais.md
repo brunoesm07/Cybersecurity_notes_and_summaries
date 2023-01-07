@@ -96,3 +96,13 @@ Pode-se utilizar o mail tracking para obter log de acesso de um determinado alvo
 **Banner Grabbing**
 
 O Banner Grabbing, ou, em português, captura de banners, é uma técnica usada para recolher informações sobre um sistema de computador em uma rede e os serviços em execução em suas portas abertas.
+
+
+
+## Análise de Vulnerabilidades
+
+Uma análise de vulnerabilidades não se aplica apenas a sistemas e serviços eletrônicos; ela engloba tudo que possa existir, desde uma simples caneta até pessoas, sendo possível aplicar engenharia social das mais diversas formas." (from "Técnicas de Invasão: Aprenda as técnicas usadas por hackers em invasões reais
+
+O processo de identificação de análise de vulnerabilidades consiste em tarefas que vão desde a navegação no site em buscas de páginas de erros e a exploração do código-fonte até o uso de ferramentas específicas, como o nmap, para vasculhar a rede e obter versões de serviços e sistemas operacionais.
+
+

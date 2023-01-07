@@ -26,3 +26,17 @@ Este repositório foi criado com o objetivo de compartilhar e manter uma fonte d
 * [Anotações do curso Introduction to Network Analysis](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Cursos_Security_Blue%20Team/Introduction%20to%20Network%20Analysis.md)
 
 #### [CompTIA Security+ (SY0-601) Complete Course & Exam](https://www.udemy.com/course/securityplus/)
+
+#### UNIVESP (Youtube)
+- Anotações do [Curso Segurança da Informação](https://youtube.com/playlist?list=PLxI8Can9yAHenoHipBXp9XuJY4BBxBUPQ)
+1. Introdução
+2. Confidencialidade e Cifras Simétricas
+3. Funções de hash, Códigos de Autenticação e Números Aleatórios
+4. Algoritmos Assimétricos e Certificação Digital
+5. Autenticação de Usuários
+6. Software Malicioso (malware)
+7. Ferramentas de Segurança
+
+
+
+
