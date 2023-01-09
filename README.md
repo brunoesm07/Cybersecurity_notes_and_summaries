@@ -33,9 +33,10 @@ Este repositório foi criado com o objetivo de compartilhar e manter uma fonte d
 #### [CompTIA Security+ (SY0-601) Complete Course & Exam](https://www.udemy.com/course/securityplus/)
 
 #### UNIVESP
-[Curso Segurança da Informação](https://youtube.com/playlist?list=PLxI8Can9yAHenoHipBXp9XuJY4BBxBUPQ)
+###### [Curso Segurança da Informação](https://youtube.com/playlist?list=PLxI8Can9yAHenoHipBXp9XuJY4BBxBUPQ)
 - Anotações Curso Segurança da Informação - Engenharia da Computação
-[Curso Redes de Computadores](https://www.youtube.com/playlist?list=PLxI8Can9yAHc-_dZ6nsfoon08i2-4OvEk)
+
+###### [Curso Redes de Computadores](https://www.youtube.com/playlist?list=PLxI8Can9yAHc-_dZ6nsfoon08i2-4OvEk)
 - Anotações Curso Redes de Computadores - Engenharia de Computação
 
 #### Nano Courses FIAP
