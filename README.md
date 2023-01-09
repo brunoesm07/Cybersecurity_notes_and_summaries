@@ -28,7 +28,7 @@ Este repositório foi criado com o objetivo de compartilhar e manter uma fonte d
 
 ## Cursos
 #### [Security Blue Team](https://securityblue.team/)
-* [Anotações do curso Introduction to Network Analysis](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Cursos_Security_Blue%20Team/Introduction%20to%20Network%20Analysis.md)
+* [Anotações do curso Introduction to Network Analysis](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Cursos/Cursos_Security_Blue%20Team/Introduction%20to%20Network%20Analysis.md)
 
 #### [CompTIA Security+ (SY0-601) Complete Course & Exam](https://www.udemy.com/course/securityplus/)
 
