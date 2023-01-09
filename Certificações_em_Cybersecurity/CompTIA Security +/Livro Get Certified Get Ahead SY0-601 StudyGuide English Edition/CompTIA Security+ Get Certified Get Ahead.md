@@ -104,3 +104,40 @@ Usage auditing records user activity in logs. A usage auditing review looks at t
 
 
 Kerberos is a network authentication protocol within a Microsoft Windows Active Directory domain or a Unix realm. It uses a database of objects such as Active Directory and a KDC (or TGT server) to issue timestamped tickets that expire after a certain time period.
+
+SAML is an XML-based standard used to exchange authentication and authorization information between different parties. SAML provides SSO for web-based applications.
+
+
+OAuth OAuth is an open standard for authorization many companies use to provide secure access to protected resources. Instead of creating a different account for each website you access, you can often use the same account you’ve created with Google, Facebook, PayPal, Microsoft, or Twitter. You can think of OAuth as open authorization.
+
+
+"Comparing Access Control Schemes Access control ensures that only authenticated and authorized entities can access resources.
+
+
+Subjects. 
+Subjects are typically users or groups that access an object. Occasionally, the subject may be a service that is using a service account to access an object.  
+
+Objects. 
+Objects are items such as files, folders, shares, and printers that subjects access. The access control helps determine how a system grants authorization to objects. Or, said another way, the access control scheme determines how a system grants users access to files and other resources.
+
+
+Role-Based Access Control Role-based access control (role-BAC) uses roles to manage rights and permissions for users. This is useful for users within a specific department who perform the same job functions.
+
+A role-based access control scheme uses roles based on jobs and functions. A matrix is a planning document that matches the roles with the required privileges.
+
+Establishing Access with Group-Based Privileges Administrators commonly grant access in the role-BAC scheme using roles, and they often implement roles as groups.
+
+
+Group-based privileges reduce the administrative workload of access management. Administrators put user accounts into security groups and assign privileges to the groups. Users within a group automatically inherit the privileges assigned to the group.
+
+
+Rule-based access control is based on a set of approved instructions, such as an access control list. Some rule-BAC systems use rules that trigger in response to an event, such as modifying ACLs after detecting an attack or granting additional permissions to a user in certain situations.
+
+
+Discretionary Access Control In the discretionary access control (DAC) scheme, objects (such as files and folders) have an owner, and the owner establishes access for the objects.
+
+
+Mandatory Access Control The mandatory access control (MAC) scheme uses labels (sometimes referred to as sensitivity labels or security labels) to determine access.
+
+
+The MAC scheme uses sensitivity labels for users and data. It is commonly used when access needs to be restricted based on a need to know. Sensitivity labels often reflect classification levels of data and clearances granted to individuals.

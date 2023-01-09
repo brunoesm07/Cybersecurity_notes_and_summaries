@@ -6,11 +6,6 @@ Tags: #certificação #cybersecurity #ISC²
 
 Todos os dados precisam de alguma forma de segurança; mesmo os dados que não são confidenciais (como dados destinados à exibição pública) precisam de proteção para garantir a disponibilidade.
 
-**Authorization** - O direito ou uma permissão concedida a uma entidade do sistema para acessar um recurso do sistema.  NIST 800-82 Rev.2
-
-**Authentication** - Processo de controle de acesso que compara um ou mais fatores de identificação para validar que a identidade reivindicada por um usuário ou entidade é conhecida pelo sistema.
-
-
 
 
 ## CIA Triad
@@ -30,6 +25,20 @@ Todos os dados precisam de alguma forma de segurança; mesmo os dados que não s
 * As metodologias de não repúdio garantem que as pessoas sejam responsabilizadas pelas transações que conduziram. 
 
 **Criticality** (criticidade)  - Uma medida do grau em que uma organização depende da informação ou sistema de informação para o sucesso de uma missão ou de uma função de negócios.
+
+
+**Authorization** - O direito ou uma permissão concedida a uma entidade do sistema para acessar um recurso do sistema.  NIST 800-82 Rev.2
+
+## Autenticação (Authentication)
+
+Processo de controle de acesso que compara um ou mais fatores de identificação para validar que a identidade reivindicada por um usuário ou entidade é conhecida pelo sistema.
+
+Existem 3 métodos comuns de autenticação:
+- Algo que você conhece (ex: senha)
+- Algo que você tem (ex: tokens)
+- Algo que você é (ex: biometria)
+
+Existem dois tipos de autenticação. O uso de apenas um dos métodos é conhecido como **Autenticação de Fator Único (SFA)**. A concessão de acesso após a demonstração ou exibição bem sucedida de dois ou mais  métodos é conhecida como **Autenticação Multifator (MFA)**.
 
 
 
