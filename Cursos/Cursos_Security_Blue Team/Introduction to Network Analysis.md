@@ -18,7 +18,7 @@ Se um invasor estiver conectado a um hub, sempre que qualquer host conectado env
 
 Um switch funciona como uma versão inteligente de um hub porque ele realmente entende para onde enviar dados, em vez de enviá-los para todos. Ele consegue isso usando endereços MAC como identificadores exclusivos para destinatários de dados recebidos, para que possa enviá-los ao sistema correto.
 
-	- MAC address é um identificador numérico atribuído a uma interface de rede (NIC), dispositivo Wi-Fi ou Bluetooth, usado como endereço físico em uma rede local. Esse número é único, exclusivo. Equipamentos como switches registram todos os endereços MAC dos dispositivos conectados da rede em uma tabela interna, que identifica os remetentes e destinatários, além de endereçar corretamente os pacotes de dados e criar rotas eficientes entre os dispositivos de origem e destino.
+- MAC address é um identificador numérico atribuído a uma interface de rede (NIC), dispositivo Wi-Fi ou Bluetooth, usado como endereço físico em uma rede local. Esse número é único, exclusivo. Equipamentos como switches registram todos os endereços MAC dos dispositivos conectados da rede em uma tabela interna, que identifica os remetentes e destinatários, além de endereçar corretamente os pacotes de dados e criar rotas eficientes entre os dispositivos de origem e destino.
 
 #### Bridge
 
@@ -68,7 +68,7 @@ Portanto, se você quiser visualizar uma página web, seu navegador fará uma so
 
 Como o HTTP não é criptografado, é possível realizar **ataques de sniffing** e ver os dados em texto puro à medida que são transmitidos entre o cliente e o servidor, como senhas.
 
-	- Sniffing
+- Sniffing
 	Sniffers são programas usados para monitorar as atividades em uma conexão (ou rede), e o mais famoso deles é o Sniffer, um software de monitoramento criado e mantido pela NetScout.
 	E o que é sniffing? Sniffing é o ato de monitorar atividades em uma rede através destes programas.	
 	
@@ -95,5 +95,5 @@ A janela Conversations também fornece uma riqueza de informações sobre o trá
 Statistics > Endpoints
 A janela Endpoints mostra todos os diferentes hosts que aparecem na captura e a quantidade de pacotes/bytes que eles enviaram e receberam. Essa janela é útil para classificar hosts por sua atividade de rede, por volume de transmissão ou recebimento, ou por ambos.
 
-	- TX (enviou)
-	- RX (recebeu)
+- TX (enviou)
+- RX (recebeu)
