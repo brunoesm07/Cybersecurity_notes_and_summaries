@@ -34,13 +34,13 @@ Este repositório foi criado com o objetivo de compartilhar e manter uma fonte d
 
 #### UNIVESP
 ###### [Curso Segurança da Informação](https://youtube.com/playlist?list=PLxI8Can9yAHenoHipBXp9XuJY4BBxBUPQ)
-- Anotações Curso Segurança da Informação - Engenharia da Computação
+- [Anotações](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Cursos/Cursos%20UNIVESP%20(Youtube)%20Eng.%20de%20Computa%C3%A7%C3%A3o/Seguran%C3%A7a%20da%20Informa%C3%A7%C3%A3o.md) Curso Segurança da Informação - Engenharia da Computação
 
 ###### [Curso Redes de Computadores](https://www.youtube.com/playlist?list=PLxI8Can9yAHc-_dZ6nsfoon08i2-4OvEk)
-- Anotações Curso Redes de Computadores - Engenharia de Computação
+- [Anotações](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Cursos/Cursos%20UNIVESP%20(Youtube)%20Eng.%20de%20Computa%C3%A7%C3%A3o/Redes%20de%20Computadores.md) Curso Redes de Computadores - Engenharia de Computação
 
 #### Nano Courses FIAP
-- Anotações do Curso Cybersecurity
+- [Anotações](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Cursos/Nano%20Courses%20FIAP/Cybersecurity.md) do Curso Cybersecurity
 
 
 
