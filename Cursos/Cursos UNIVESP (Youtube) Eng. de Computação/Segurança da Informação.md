@@ -69,3 +69,15 @@ Transformação matemática reversível: cifração e decifração. Onde os dois
 - **AES (Advanced Encryption Standard)**: Padrão atual
 
 
+
+## Funções de Hash
+
+Algoritmo que não depende de informação secreta. Pega uma mensagem de qualquer tamanho de entrada e gera um hash da mensagem da tamanho fixo.
+
+Os principais são o SHA-2 e o SHA-3
+
+##### Propriedades Fundamentais
+
+- Resistência a 1a inversão
+- Resistência a 2a inversão
+- Resistência a colisões
