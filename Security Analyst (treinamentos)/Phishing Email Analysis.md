@@ -46,13 +46,13 @@ Multipurpose Internet Mail Extensions (MIME) é um padrão de codificação da I
 O status X-Spam mostra a pontuação de spam de uma mensagem de e-mail.  Primeiro, ele destacará se uma mensagem for classificada como spam.  Em seguida, a pontuação de spam do e-mail é exibida, bem como o limite de spam para o e-mail. Um e-mail pode atingir o limite de spam de uma caixa de entrada ou excedê-lo. Se for muito spam e exceder o limite, será automaticamente classificado como spam e enviado para a pasta de spam.
 
 
-##### Análise Estática
+### Análise Estática
 
 Invasores podem criar e-mails com HTML, escondendo endereços de URL prejudiciais por trás de botões/textos que parecem inofensivos. Para analisar este caso, é possível descobrir se os mecanismos antivírus detectam o endereço da Web como prejudicial pesquisando os endereços da Web no e-mail do VirusTotal.
 
 Porém é necessário verificar a data da última pesquisa e confrontar com a data do email.  Se, apesar da pesquisa indicar "inofensivo", deve-se verificar quando a página foi pesquisada anteriormente no VirusTotal, pois caso haja contemporaniedade pode significar que o invasor queria ver a taxa de detecção do site durante a fase de preparação.
 
-##### Análise Dinâmica
+### Análise Dinâmica
 
 Se você deseja verificar rapidamente os endereços web contidos no e-mail, pode ver o conteúdo do site usando ambientes sandbox, navegadores web on-line, como o Browserling . O bom desses serviços é que você não será afetado por uma possível vulnerabilidade de dia zero que afeta os navegadores, já que você não acessa a página da web em seu próprio computador.
 
@@ -64,11 +64,13 @@ O fato de não haver URLs e arquivos no e-mail não significa que isso não seja
 ### Ferramentas
 
 [MXToolbox](https://mxtoolbox.com/) - Ajuda mostrando os servidores MX usados ​​pelo domínio que você pesquisou.
+
 [VirusTotal](https://www.virustotal.com/gui/home) - Analise arquivos, domínios, IPs e URLs suspeitos para detectar malware e outras violações, compartilhe-os automaticamente com a comunidade de segurança.
+
 [Browserling](https://www.browserling.com/) - Sandbox para testes em navegadores.
 
 
-Você poderá realizar as atividades práticas [clicando aqui]([https://app.letsdefend.io/training/lessons/phishing-email-analysis](https://app.letsdefend.io/training/lessons/phishing-email-analysis "https://app.letsdefend.io/training/lessons/phishing-email-analysis")
+Você poderá realizar as atividades práticas [clicando aqui]([https://app.letsdefend.io/training/lessons/phishing-email-analysis](https://app.letsdefend.io/training/lessons/phishing-email-analysis "https://app.letsdefend.io/training/lessons/phishing-email-analysis)
 
 
 ![[Pasted image 20230111161224.png]]
