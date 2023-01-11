@@ -2,11 +2,15 @@
 ## CIA Triad
 
 **Confidentiality (confidencialidade)** -> regular o acesso
+
 **Integrity (integridade)** -> garantia que os dados não foram alterados sem autorização
+
 **Availability (disponibilidade)** -> sistema e dados acessiveis no momento que o usuário necessita.
 
 - Se um desses falha, isso se torna uma vulnerabilidade.
+
 criptografia -> confidencialidade
+
 hashes -> integridade
 
 Sensibilidade - medida da importância atribuída à informação por seu proprietário.
