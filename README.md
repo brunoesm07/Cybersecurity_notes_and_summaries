@@ -42,6 +42,9 @@ Este repositório foi criado com o objetivo de compartilhar e manter uma fonte d
 #### Nano Courses FIAP
 - [Anotações](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Cursos/Nano%20Courses%20FIAP/Cybersecurity.md) do Curso Cybersecurity
 
+## Treinamentos
 
+#### Phishing Email Analysis
+- [Anotações](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Security%20Analyst%20(treinamentos)/Phishing%20Email%20Analysis.md) do treinamento de Análise de Email de Phishing
 
 
