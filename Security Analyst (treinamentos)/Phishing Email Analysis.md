@@ -70,7 +70,7 @@ O fato de não haver URLs e arquivos no e-mail não significa que isso não seja
 [Browserling](https://www.browserling.com/) - Sandbox para testes em navegadores.
 
 
-Você poderá realizar as atividades práticas [clicando aqui]([https://app.letsdefend.io/training/lessons/phishing-email-analysis](https://app.letsdefend.io/training/lessons/phishing-email-analysis "https://app.letsdefend.io/training/lessons/phishing-email-analysis)
+Você poderá realizar as atividades práticas [clicando aqui](https://app.letsdefend.io/training/lessons/phishing-email-analysis)
 
-
+![](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Security%20Analyst%20(treinamentos)/badges/Pasted%20image%2020230111161224.png)[](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Security%20Analyst%20(treinamentos)/badges/Pasted%20image%2020230111161224.png)
 ![[Pasted image 20230111161224.png]]
