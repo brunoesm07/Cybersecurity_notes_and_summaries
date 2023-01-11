@@ -1,35 +1,44 @@
 
+## CIA
 
-Confidentiality ensures that data is only viewable by authorized users. The best way to protect the confidentiality of data is by encrypting it. This includes any type of data, such as PII, data in databases, and data on mobile devices. Access controls help protect confidentiality by restricting access.
+A **confidencialidade** garante que os dados sejam visualizados apenas por usuários autorizados. A melhor maneira de proteger a confidencialidade dos dados é criptografá-los. Isso inclui qualquer tipo de dados, como PII, dados em bancos de dados e dados em dispositivos móveis. Os controles de acesso ajudam a proteger a confidencialidade ao restringir o acesso.
 
+A **integridade** verifica se os dados não foram modificados. A perda de integridade pode ocorrer por meio de alterações não autorizadas ou não intencionais. Algoritmos de hash, como SHA, calculam hashes para verificar a integridade. Um hash é simplesmente um número criado pela aplicação do algoritmo a um arquivo ou mensagem em momentos diferentes. Ao comparar os hashes, você pode verificar se a integridade foi mantida.
 
-Integrity verifies that data has not been modified. Loss of integrity can occur through unauthorized or unintended changes. Hashing algorithms, such as SHA, calculate hashes to verify integrity. A hash is simply a number created by applying the algorithm to a file or message at different times. By comparing the hashes, you
-can verify integrity has been maintained.
-
-
-Availability ensures that systems are up and operational when needed and often addresses single points of failure. You can increase availability by adding fault tolerance and redundancies, such as RAID, failover clusters, backups, and generators.
+A **disponibilidade** garante que os sistemas estejam ativos e operacionais quando necessário e geralmente aborda pontos únicos de falha. Você pode aumentar a disponibilidade adicionando tolerância a falhas e redundâncias, como RAID, clusters de failover, backups e geradores.
 
 
-Scalability is a system's ability to handle increased workload either by scaling up or by scaling out.
+#### Escalabilidade (Scalability)
+
+A escalabilidade é a capacidade de um sistema de lidar com o aumento da carga de trabalho, escalando (scaling up) ou expandindo (scaling out). Refere-se à adição ou remoção manual de recursos de um sistema para aumentá-lo ou escalá-lo.
+
+#### Elasticidade (Elasticity)
+
+Elasticidade é a capacidade de um sistema de lidar com uma carga de trabalho aumentada. A facilidade e velocidade de fazer essa mudança de escala, tanto para aumentar, quanto para diminuir determinará se o sistema é elástico. 
+
+#### Redundância
+ 
+Métodos de redundância e tolerância a falhas aumentam a disponibilidade de sistemas e dados.
+
+#### Risco
+
+Risco é a probabilidade de uma ameaça explorar uma vulnerabilidade. A mitigação de riscos reduz as chances de uma ameaça explorar uma vulnerabilidade ou reduz o impacto do risco implementando controles de segurança.
 
 
-Elasticity is the ability of a system to handle an increased workload by dynamically scaling up or scaling out as the need arises.
+## Controles de Segurança
+
+Os controles de segurança são categorizados como gerenciais (documentados em políticas escritas), operacionais (executados nas operações do dia-a-dia) ou técnicos (implementados com tecnologia).
 
 
-Redundancy and fault tolerance methods increase the availability of systems and data. Scalability refers to manually adding or removing resources to a system to scale it up or out. Elasticity refers to dynamically adding or removing resources to a system to scale it.
+Os **controles gerenciais** são administrativos em função e documentados em políticas de segurança. 
+
+Os **controles operacionais** são implementados por pessoas que executam as operações diárias para cumprir o plano geral de segurança de uma organização.
+
+Os **controles técnicos** usam a tecnologia para reduzir as vulnerabilidades. Alguns exemplos incluem criptografia, software antivírus, IDSs, IPSs, firewalls e o princípio do privilégio mínimo. A segurança física e os controles ambientais incluem detectores de movimento e sistemas de supressão de incêndio.
 
 
-Risk is the likelihood that a threat will exploit a vulnerability. Risk mitigation reduces the chances that a threat will exploit a vulnerability or reduces the risk’s impact by implementing security controls.
 
 
-
-Security controls are categorized as managerial (documented in written policies), operational (performed in day-to-day operations), or technical (implemented with technology).
-
-
-Managerial controls are administrative in function and documented in security policies. Operational controls are implemented by people who perform the day-to-day operations to comply with an organization’s overall security plan.
-
-
-Technical controls use technology to reduce vulnerabilities. Some examples include encryption, antivirus software, IDSs, IPSs, firewalls, and the least privilege principle. Physical security and environmental controls include motion detectors and fire suppression systems.
 
 
 Preventative controls attempt to prevent security incidents. Hardening systems modifies the basic configuration to increase security. Security guards can prevent unauthorized personnel from entering a secure area. Change management processes help prevent outages from configuration changes. An account disablement policy ensures that accounts are disabled when a user leaves the organization.
