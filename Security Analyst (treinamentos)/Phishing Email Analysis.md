@@ -1,4 +1,6 @@
 
+## Phishing Email Analysis
+
 O ataque de phishing é um tipo de ataque que visa roubar dados pessoais do usuário. Ocorre a partir de clicks em links maliciosos enviados via e-mail ou executando arquivos maliciosos no computador.
 
 Os ataques de phishing correspondem à fase " Delivery " no modelo **Cyber ​​Kill Chain** criado para analisar ataques cibernéticos. São os vetores de ataque mais comuns para acesso inicial.
@@ -61,7 +63,7 @@ Ao examinar os arquivos nesses ambientes, você elimina o risco de infectar seu 
 O fato de não haver URLs e arquivos no e-mail não significa que isso não seja prejudicial. O invasor também pode enviá-lo como uma imagem para não ser pego nos produtos de análise.
 
 
-### Ferramentas
+## Ferramentas
 
 [MXToolbox](https://mxtoolbox.com/) - Ajuda mostrando os servidores MX usados ​​pelo domínio que você pesquisou.
 
@@ -69,8 +71,8 @@ O fato de não haver URLs e arquivos no e-mail não significa que isso não seja
 
 [Browserling](https://www.browserling.com/) - Sandbox para testes em navegadores.
 
+### Pratique
 
 Você poderá realizar as atividades práticas [clicando aqui](https://app.letsdefend.io/training/lessons/phishing-email-analysis)
 
 ![](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Security%20Analyst%20(treinamentos)/badges/Pasted%20image%2020230111161224.png)[](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Security%20Analyst%20(treinamentos)/badges/Pasted%20image%2020230111161224.png)
-![[Pasted image 20230111161224.png]]
