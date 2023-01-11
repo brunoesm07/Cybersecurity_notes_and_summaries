@@ -14,8 +14,8 @@ Este repositório foi criado com o objetivo de compartilhar e manter uma fonte d
 5. [Capítulo 5 Operações de Segurança](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Certifica%C3%A7%C3%B5es_em_Cybersecurity/CERTIFIED%20IN%20CYBERSECURITY%20(CC)%20-%20(ISC)%C2%B2/Cap%C3%ADtulo%205%20Opera%C3%A7%C3%B5es%20de%20Seguran%C3%A7a.md)
 
 #### [CompTIA Security+](https://www.comptia.org/certifications/security)
-* [Notas do Livro CompTIA Security+ Get Certified Get Ahead](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Certifica%C3%A7%C3%B5es_em_Cybersecurity/CompTIA%20Security%20%2B/Livro%20Get%20Certified%20Get%20Ahead%20SY0-601%20StudyGuide%20English%20Edition/CompTIA%20Security%2B%20Get%20Certified%20Get%20Ahead.md)
-* Resumo de estudos do Curso CompTIA Security+ (SY0-601) Complete Course & Exam
+* [Notas do Livro](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Certifica%C3%A7%C3%B5es_em_Cybersecurity/CompTIA%20Security%20%2B/Livro%20Get%20Certified%20Get%20Ahead%20SY0-601%20StudyGuide%20English%20Edition/CompTIA%20Security%2B%20Get%20Certified%20Get%20Ahead.md) CompTIA Security+ Get Certified Get Ahead
+* [Resumo de estudos](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Certifica%C3%A7%C3%B5es_em_Cybersecurity/CompTIA%20Security%20%2B/Curso%20CompTIA%20Security%2B%20(SY0-601)%20Complete%20Course%20%26%20Exam.md) do Curso CompTIA Security+ (SY0-601) Complete Course & Exam
 
 #### Fundamentos em Cybersegurança | IBSEC - Instituto Brasileiro de Cibersegurança
 - [Certificação](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Docs/certificate%20IBSEC%20Fundamentos%20em%20Ciberseguran%C3%A7a.pdf) (pass)
@@ -24,11 +24,11 @@ Este repositório foi criado com o objetivo de compartilhar e manter uma fonte d
 #### [CompTIA Security+ Get Certified Get Ahead: SY0-601 StudyGuide (English Edition)](https://www.amazon.com.br/gp/product/B09237T9ZB/ref=ppx_yo_dt_b_d_asin_title_o03?ie=UTF8&psc=1)
 
 #### [Técnicas de Invasão: Aprenda as técnicas usadas por hackers em invasões reais](https://www.amazon.com.br/gp/product/B08255WXST/ref=ppx_yo_dt_b_d_asin_title_o01?ie=UTF8&psc=1)
-* [Notas do livro Técnicas de Invasão Aprenda as técnicas usadas por hackers em invasões reais](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Livros_CyberSeguran%C3%A7a/T%C3%A9cnicas%20de%20Invas%C3%A3o%20Aprenda%20as%20t%C3%A9cnicas%20usadas%20por%20hackers%20em%20invas%C3%B5es%20reais.md)
-
+* [Notas do livro](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Livros_CyberSeguran%C3%A7a/T%C3%A9cnicas%20de%20Invas%C3%A3o%20Aprenda%20as%20t%C3%A9cnicas%20usadas%20por%20hackers%20em%20invas%C3%B5es%20reais.md)
+ Técnicas de Invasão Aprenda as técnicas usadas por hackers em invasões reais
 ## Cursos
 #### [Security Blue Team](https://securityblue.team/)
-* [Anotações do curso Introduction to Network Analysis](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Cursos/Cursos_Security_Blue%20Team/Introduction%20to%20Network%20Analysis.md)
+* [Anotações](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Cursos/Cursos_Security_Blue%20Team/Introduction%20to%20Network%20Analysis.md) do curso Introduction to Network Analysis
 
 #### [CompTIA Security+ (SY0-601) Complete Course & Exam](https://www.udemy.com/course/securityplus/)
 
