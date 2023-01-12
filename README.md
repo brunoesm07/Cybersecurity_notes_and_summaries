@@ -48,4 +48,4 @@ Este repositório foi criado com o objetivo de compartilhar e manter uma fonte d
 - [Anotações](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Security%20Analyst%20(treinamentos)/Phishing%20Email%20Analysis.md) do treinamento de Análise de Email de Phishing
 
 #### Network Fundamentals
-- [Anotações]() do treinamento Fundamentos de Rede
+- [Anotações](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Security%20Analyst%20(treinamentos)/Network%20Fundamentals.md) do treinamento Fundamentos de Rede

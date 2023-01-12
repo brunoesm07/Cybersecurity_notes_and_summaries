@@ -57,6 +57,36 @@ A camada de apresentação é a camada onde os dados são exibidos. Dois nós c
 A camada de aplicação é a camada mais próxima do usuário e fornece acesso às estruturas encontradas no modelo OSI em nível de usuário. 
 
 
+### Dispositivos de rede
+
+##### Switch
+
+O switch é o dispositivo de interconexão e é usado para conectar os nós que desejam se conectar à rede. Opera na camada de enlace ou na camada de rede (quando possuem recursos mais gerenciáveis).
+
+##### Router (roteador)
+
+É um equipamento de rede utilizado colocando-o entre duas redes de computadores e tem como tarefa básica o roteamento de pacotes, sendo frequentemente usado, por exemplo, em conexões WAN-LAN. Opera na camada de rede.
+
+##### Hub
+
+O dispositivo hub possui uma estrutura bastante simples e é um dos dispositivos utilizados para conectar computadores que desejam se conectar à rede. Camada física
+
+##### Repetidor
+
+Existem apenas 2 portas no dispositivo repetidor. Essas portas transformam o sinal de entrada em um sinal de saída e o transmitem ao destino. Opera na camada física.
+
+##### Bridge
+
+A bridge realiza o roteamento de pacotes conectando duas redes de computadores. Embora tenha uma função semelhante a um roteador, é um dispositivo muito simples com menos portas que um roteador. Camada de enlace
+
+##### Modem
+
+Os modems geralmente são equipamentos de rede de pequeno porte, nos quais as características de alguns dispositivos, como switches, são reunidas.
+
+##### Firewall
+
+Um firewall é vital para o hardware de rede localizado entre a internet, que é considerada uma rede insegura, e a rede existente. A tarefa do firewall, que é um dos equipamentos básicos de rede necessários para garantir a segurança da rede, é bloquear ou permitir o tráfego de acordo com determinadas regras. Opera na camada de transporte.
+
 
 
 
