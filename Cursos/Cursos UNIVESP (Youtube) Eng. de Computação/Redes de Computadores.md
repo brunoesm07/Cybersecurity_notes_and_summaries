@@ -56,10 +56,19 @@ Rede de computadores **modularizada** em um conjunto de camadas, onde cada uma v
 
 ### Modelo TCP/IP - 4 camadas
 
-- Camada de Aplicação
-- Camada de Transporte
-- Camada de Internet
-- Camada de Acesso a Rede
+- Camada de Aplicação -> dados "puros"
+- Camada de Transporte -> cabeçalho possui **porta** (TCP/UDP) de origem e destino (encapsulamento)
+- Camada de Internet -> cabeçalho possui **IP** de origem e destino (encapsulamento)
+- Camada de Acesso a Rede (enlace) -> cabeçalho possui **MAC** de origem e destino (encapsulamento)
 
+### Camada de Aplicação
 
+Onde é realizada a maior parte das requisições para execução de tarefas na rede. Ela faz a comunicação entre os programas e os protocolos de transporte e é responsável por tudo que está relacionado aos serviços de comunicação que visam a interação junto ao usuário.
 
+Os dados são gerados na camada de aplicação e a partir de então seão **encapsulados** camada por camada até chegar na camada física.
+
+Ex: Email, websites, mensagem instantânea, streaming de videos, voip
+
+Possui três arquiteturas que são cliente-servidor, peer-to-peer (P2P) e híbrida.
+
+Dois tipos de protocolos: domínio público (ex: HTTP, SMTP) e proprietários (ex: Skype)

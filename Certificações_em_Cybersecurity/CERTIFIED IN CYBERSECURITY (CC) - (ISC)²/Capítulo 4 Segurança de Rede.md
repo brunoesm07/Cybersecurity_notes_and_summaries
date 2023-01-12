@@ -68,6 +68,10 @@ Na Camada de Aplicação, os protocolos TCP/IP incluem Telnet, Protocolo de Tra
 
 O TCP/IP pode ser encontrado em quase todos os sistemas operacionais disponíveis, mas consome uma quantidade significativa de recursos e é relativamente fácil de invadir porque foi projetado para facilidade de uso e não para segurança.
 
+-  Camada de Aplicação -> dados "puros"
+- Camada de Transporte -> cabeçalho possui **porta** (TCP/UDP) de origem e destino (encapsulamento)
+- Camada de Internet -> cabeçalho possui **IP** de origem e destino (encapsulamento)
+- Camada de Acesso a Rede (enlace) -> cabeçalho possui **MAC** de origem e destino (encapsulamento)
 
 
 ## Internet Protocol (IPv4 and IPv6)
