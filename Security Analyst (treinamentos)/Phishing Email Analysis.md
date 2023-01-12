@@ -65,7 +65,7 @@ O fato de não haver URLs e arquivos no e-mail não significa que isso não seja
 
 ## Ferramentas
 
-[MXToolbox](https://mxtoolbox.com/) - Ajuda mostrando os servidores MX usados ​​pelo domínio que você pesquisou.
+[MXToolbox](https://mxtoolbox.com/) - Ajuda mostrando os servidores MX usados pelo domínio que você pesquisou.
 
 [VirusTotal](https://www.virustotal.com/gui/home) - Analise arquivos, domínios, IPs e URLs suspeitos para detectar malware e outras violações, compartilhe-os automaticamente com a comunidade de segurança.
 
@@ -75,5 +75,4 @@ O fato de não haver URLs e arquivos no e-mail não significa que isso não seja
 
 Você poderá realizar as atividades práticas [clicando aqui](https://app.letsdefend.io/training/lessons/phishing-email-analysis)
 
-![](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Security%20Analyst%20(treinamentos)/badges/Pasted%20image%2020230111161224.png)[](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Security%20Analyst%20(treinamentos)/badges/Pasted%20image%2020230111161224.png)
-![[Pasted image 20230112104935.png]]
+![](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Security%20Analyst%20(treinamentos)/badges/Pasted%20image%2020230112104935.png)
