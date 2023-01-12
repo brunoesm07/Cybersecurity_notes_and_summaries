@@ -123,4 +123,4 @@ Embora o modelo de referência OSI e o modelo TCP/IP sejam modelos muito semelha
 
 Você poderá realizar as atividades práticas [clicando aqui](https://app.letsdefend.io/training/lessons/network-fundamentals)
 
-![[Pasted image 20230112105826.png]]
+![](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Security%20Analyst%20(treinamentos)/badges/Pasted%20image%2020230112105826.png)
