@@ -88,11 +88,35 @@ Os modems geralmente são equipamentos de rede de pequeno porte, nos quais as ca
 Um firewall é vital para o hardware de rede localizado entre a internet, que é considerada uma rede insegura, e a rede existente. A tarefa do firewall, que é um dos equipamentos básicos de rede necessários para garantir a segurança da rede, é bloquear ou permitir o tráfego de acordo com determinadas regras. Opera na camada de transporte.
 
 
+### TCP/IP
+
+Com este modelo, determinou-se como deveria ser a comunicação da rede com base na internet. O modelo TCP/IP tem uma arquitetura em camadas e consiste em 4 camadas:  
+  
+-   Camada de aplicação
+-   Camada de transporte
+-   Camada de Internet
+-   Camada de acesso à rede
+
+##### Camada de acesso à rede
+
+Corresponde às camadas física e de enlace no modelo de referência OSI. Esta camada inclui acessos físicos e controles de hardware.  
+
+##### Camada de Internet
+
+A camada Internet tem funções semelhantes à camada de rede no modelo de referência OSI. Nesta camada, as funções de comunicação de rede são executadas por endereçamento lógico.  
+
+##### Camada de transporte
+
+A camada de transporte tem funções semelhantes à camada de transporte no modelo de referência OSI. Nesta camada, a transmissão de dados é feita e a confiabilidade da comunicação é garantida. 
+
+##### Camada de aplicação
+
+A camada de Aplicação cobre todas as operações realizadas nas camadas sessão, apresentação e aplicação do modelo de referência OSI. Os controles e operações no nível do aplicativo são executados nessa camada.
 
 
+### Modelo OSI vs. Modelo TCP/IP
 
-
-
+Embora o modelo de referência OSI e o modelo TCP/IP sejam modelos muito semelhantes, eles diferem entre si em alguns pontos. Quando o modelo TCP/IP surgiu pela primeira vez, surgiu por necessidade, não com o objetivo de ser um padrão. O modelo de referência OSI, por outro lado, visava projetar a rede de comunicação ideal. 
 
 
 ### Pratique
