@@ -26,7 +26,11 @@ Este repositório foi criado com o objetivo de compartilhar e manter uma fonte d
 #### [Técnicas de Invasão: Aprenda as técnicas usadas por hackers em invasões reais](https://www.amazon.com.br/gp/product/B08255WXST/ref=ppx_yo_dt_b_d_asin_title_o01?ie=UTF8&psc=1)
 * [Notas do livro](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Livros_CyberSeguran%C3%A7a/T%C3%A9cnicas%20de%20Invas%C3%A3o%20Aprenda%20as%20t%C3%A9cnicas%20usadas%20por%20hackers%20em%20invas%C3%B5es%20reais.md)
  Técnicas de Invasão Aprenda as técnicas usadas por hackers em invasões reais
+ 
 ## Cursos
+#### [EC-Council](https://www.eccouncil.org/)
+* [Anotações]() do curso Ethical Hacking Essentials (EHE)
+
 #### [Security Blue Team](https://securityblue.team/)
 * [Anotações](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Cursos/Cursos_Security_Blue%20Team/Introduction%20to%20Network%20Analysis.md) do curso Introduction to Network Analysis
 

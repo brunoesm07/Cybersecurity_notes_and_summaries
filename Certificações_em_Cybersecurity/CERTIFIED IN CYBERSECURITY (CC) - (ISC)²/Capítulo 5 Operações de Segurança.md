@@ -96,7 +96,7 @@ Permitir que os funcionários escolham o dispositivo mais confortável para eles
 
 ##### Política de Privacidade
 
- A política de privacidade da organização deve estipular quais informações são consideradas PII/ePHI, os procedimentos e mecanismos de tratamento apropriados usados ​​pela organização, como se espera que o usuário aja de acordo com a política e os procedimentos declarados, quaisquer mecanismos de aplicação e medidas punitivas por falha em cumprir, bem como referências aos regulamentos e legislação aplicáveis ​​aos quais a organização está sujeita.
+A política de privacidade da organização deve estipular quais informações são consideradas PII/ePHI, os procedimentos e mecanismos de tratamento apropriados usados ​​pela organização, como se espera que o usuário aja de acordo com a política e os procedimentos declarados, quaisquer mecanismos de aplicação e medidas punitivas por falha em cumprir, bem como referências aos regulamentos e legislação aplicáveis ​​aos quais a organização está sujeita.
 
 ##### Política de Gestão de Mudanças
 

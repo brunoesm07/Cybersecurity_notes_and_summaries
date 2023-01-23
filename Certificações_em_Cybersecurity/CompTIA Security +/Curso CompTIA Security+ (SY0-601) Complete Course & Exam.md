@@ -42,3 +42,24 @@ seguranças
 - Ex: Smart cards, encryption, access control lists (ACLs), intrusion detection systems, and network authentication
 
 **Controles Administrativos** -> também conhecidos como controles gerenciais, estes estão contidos em documentos com as políticas de segurança. Envolvem procedimentos, treinamentos, planos de contingencia e de recuperação de desastres.
+
+
+## Malware
+
+Software malicioso projatado para se infiltrar em um sistema de computador sem o conhecimento ou consentimento do usuário.
+
+**Vírus** -> necessita de uma ação do usuário
+
+**Worms** -> se instalam e replicam sozinhos, sem necessidade de interação com o usuário
+
+**Trojan** -> obtem acesso ao computador disfarçado como uma parte de um software inofensivo
+
+**Ransomware** -> restringe o acesso ao sistema de computador da vítima em troca de resgate financeiro
+
+**Spyware** -> coleta secreta de informações sem consentimento
+
+**Rootkits** -> projetado para obter controle de nível administrativo sobre um sistema, eles são ativados antes da inicialização do sistema operacional e são difíceis de detectar. A injeção de DDL é comumente usada. - infecção de kernel -
+
+**Spam** -> atividade abusiva de mensagens eletrônicas
+
+
