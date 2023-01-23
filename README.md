@@ -29,7 +29,7 @@ Este repositório foi criado com o objetivo de compartilhar e manter uma fonte d
  
 ## Cursos
 #### [EC-Council](https://www.eccouncil.org/)
-* [Anotações]() do curso Ethical Hacking Essentials (EHE)
+* [Anotações](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Cursos/Curso%20EC-Council%20Essentials%20-%20codered/Ethical%20Hacking%20Essentials%20(EHE).md) do curso Ethical Hacking Essentials (EHE)
 
 #### [Security Blue Team](https://securityblue.team/)
 * [Anotações](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Cursos/Cursos_Security_Blue%20Team/Introduction%20to%20Network%20Analysis.md) do curso Introduction to Network Analysis
