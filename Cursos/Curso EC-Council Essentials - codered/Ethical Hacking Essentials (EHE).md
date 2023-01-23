@@ -171,5 +171,25 @@ A avaliação de um hacker ético sobre a segurança do sistema de informação 
 - Compromisso com as políticas de segurança de uma organização
 - Uma consciência dos padrões e leis locais
 
-#### Ferramentas de Hacking Ético
+## Ferramentas de Hacking Ético
+
+#### Google Hacking
+
+Google hacking refere-se ao uso de operadores avançados de pesquisa do Google para criar complexas consultas de pesquisa para extrair informações confidenciais ou ocultas. Os atacantes podem usar o **Google Hacking Database (GHDB)**, um banco de dados de consultas, para identificar dados confidenciais.
+
+A sintaxe para usar um operador de pesquisa avançada é a seguinte: operator: **search_term**
+
+#### Ferramentas de Reconhecimento
+
+São usadas para coletar informações básicas sobre os sistemas de destino para que se possa explora-los.
+
+- **[Web Data Extractor](http://www.webextractor.com)** -> extrai automaticamente informações específicas de páginas da web: dados de contato direcionados (e-mail, telefone e fax) do site, URL e meta tags (título, descrição, palavra-chave) e assim por diante.
+- [**Whois Lookup**](https://whois.domaintools.com) -> O serviço fornece informações Whois, como informações do registrante, e-mail, informações de contato, data de criação e expiração e uma lista de servidores de domínio.
+
+#### Ferramentas de Scanning
+
+- **[Nmap](https://nmap.org)** ->  scanner de segurança para exploração de rede e hacking. Isto permite que você descubra hosts, portas e serviços em uma rede de computadores, criando assim um "mapa" da rede.
+- **[MegaPing](http://www.magnetosoft.com)** -> inclui scanners como o Comprehensive Security Scanner, o Port scanner (TCP e portas UDP), scanner de IP, scanner NetBIOS e Share Scanner.
+
+# Módulo 3 - Information Security Threats and Vulnerability Assessment
 
