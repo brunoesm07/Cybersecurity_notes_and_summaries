@@ -76,6 +76,9 @@ quanto possível para sondar os pontos fracos antes de realmente atacar. Eles pr
 
 O adversário pode usar ferramentas automatizadas, como portas e serviços abertos, vulnerabilidades em aplicativos e credenciais de login, para obter informações. Tais informações podem ajudar o adversário em obter acesso backdoor à rede de destino.
 
+- Passivo: quando um invasor está usando técnicas de reconhecimento passivo, ele não interage com o alvo diretamente e depende de informações publicamente disponíveis.
+- Ativo: envolvem interações diretas com o alvo. Por exemplo, eles podem fazer chamadas telefônicas para o help desk ou departamento técnico.
+
 #### Weaponization (Armamento)
 
 O adversário **analisa** os dados coletados na etapa anterior para identificar as vulnerabilidades e técnicas que podem ser exploraras para obter acesso não autorizado à organização alvo. O adversário seleciona ou cria uma carga útil maliciosa de entrega. Por exemplo, o adversário
@@ -115,5 +118,58 @@ A compreensão dos IoCs ajuda os profissionais de segurança a detectar rapidame
 - **Indicadores baseados em host** -> são encontrados realizando uma análise do sistema infectado dentro da rede organizacional. Incluem nomes de arquivo, hashes, chaves de registro, DLLs e mutex.
  - **Indicadores comportamentais** -> esses indicadores são úteis para identificar quando serviços de sistema legítimos são usados ​​para atividades anormais ou inesperadas. Incluem documentos de execução de script do PowerShell e execução de comando remoto.
 
+## O que é Hackear?
 
+Hacking no campo da segurança de computadores refere-se à exploração de vulnerabilidades do sistema e comprometimento dos controles de segurança para obter acesso não autorizado ou inapropriado aos recursos do sistema.
+
+O hacker é uma pessoa que invade um sistema ou rede sem autorização para destruir, roubar dados confidenciais ou realizar ataques maliciosos.
+
+#### Fases de hacking
+
+Em geral, existem cinco fases de hacking:
+
+- **Reconhecimento (reconnaissance)**
+- **Varredura (scanning)**
+- **Obtenção de Acesso (gaining access)** -> refere-se ao ponto em que o invasor obtém acesso ao sistema operacional ou aos aplicativos no computador ou na rede. Depois que um invasor obtém acesso ao sistema de destino, ele tenta escalar privilégios para assumir o controle total.
+- **Manutenção do Acesso (maintaining access)**
+- **Limpeza de Pistas (clearing tracks)** -> limpar rastros refere-se às atividades
+realizada por um invasor para ocultar atos maliciosos.
+
+Os termos “cracker” e “attacker” referem-se a pessoas que empregam suas habilidades de hacker para fins ofensivos (maliciosos).
+
+O termo “hacker ético” refere-se a profissionais de segurança que empregam suas habilidades de hacking para fins defensivos. Sempre com consentimento da empresa.
+
+A avaliação de um hacker ético sobre a segurança do sistema de informação de um cliente procura responder a três perguntas básicas:
+
+1. O que um invasor pode ver no sistema de destino?
+2. O que um invasor pode fazer com essa informação?
+3. As tentativas dos invasores estão sendo notadas nos sistemas de destino?
+
+#### Escopo e Limitações do Ethical Hacking
+
+**Escopo**
+- Fator crucial de avaliação de risco, auditoria, combate à fraude e melhores práticas de segurança de sistemas de informação.
+- É usado para identificar riscos e destacar ações corretivas. Isso também reduz os custos de TIC resolvendo vulnerabilidades.
+
+**Limitações**
+- A menos que as empresas já saibam o que eles estão procurando e por qual motivo estão contratando um fornecedor externo para hackear os seus sistemas, é provável que não haveria muito a ganhar com a experiência.
+- Um hacker ético só pode ajudar a organização a entender melhor seu sistema de segurança; cabe à organização realizar as melhorias de segurança na rede.
+
+#### Skills de um Hacker Ético
+
+**Habilidades técnicas**
+
+- Conhecimento profundo dos principais ambientes operacionais, como Windows, Unix, Linux e Mac
+- Conhecimento profundo de conceitos de rede, hardware e software
+- Conhecimento das áreas de segurança e assuntos relacionados
+- Alto conhecimento técnico de como lançar ataques sofisticados
+
+**Habilidades não-técnicas**
+
+- A capacidade de aprender e adaptar-se rapidamente a novas tecnologias
+- Um forte senso ético de trabalho e boa resolução de problemas
+- Compromisso com as políticas de segurança de uma organização
+- Uma consciência dos padrões e leis locais
+
+#### Ferramentas de Hacking Ético
 

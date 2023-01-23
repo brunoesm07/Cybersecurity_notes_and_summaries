@@ -10,11 +10,11 @@ Todos os dados precisam de alguma forma de segurança; mesmo os dados que não s
 
 ## CIA Triad
 
-**Confidentiality** (confidencialidade) - A característica dos dados ou informações quando não são disponibilizados ou divulgados a pessoas ou processos não autorizados.
+**Confidentiality** (confidencialidade) - A característica dos dados ou informações quando não são disponibilizados ou divulgados a pessoas ou processos não autorizados. Exemplos de quebra de confidencialidade: escalonamento de privilégios e quebra de senhas.
 
-**Integrity** (integridade) - A propriedade da informação pela qual ela é registrada, usada e mantida de forma a garantir sua integridade, precisão, consistência interna e utilidade para um propósito declarado.
+**Integrity** (integridade) - A propriedade da informação pela qual ela é registrada, usada e mantida de forma a garantir sua integridade, precisão, consistência interna e utilidade para um propósito declarado. Um exemplo de quebra de integridade seria quando um funcionário tenta alterar a planilha de pagamentos sem permissão para tal.
 
-**Availability** (disponibilidade) - Garantir acesso oportuno e confiável e uso de informações por usuários autorizados.
+**Availability** (disponibilidade) - Garantir acesso oportuno e confiável e uso de informações por usuários autorizados. Um exemplo de quebra de disponibilidade é o ataque DoS (Negação de Serviço).
 
 
 
@@ -26,6 +26,7 @@ Todos os dados precisam de alguma forma de segurança; mesmo os dados que não s
 
 **Criticality** (criticidade)  - Uma medida do grau em que uma organização depende da informação ou sistema de informação para o sucesso de uma missão ou de uma função de negócios.
 
+**Autenticidade** - A informação está sendo enviada por uma fonte legítima e segura, e não foi interceptada e alterada por atacantes. Quando interceptada e alterada, afeta a integridade.
 
 **Authorization** - O direito ou uma permissão concedida a uma entidade do sistema para acessar um recurso do sistema.  NIST 800-82 Rev.2
 

@@ -26,6 +26,8 @@ Este repositório foi criado com o objetivo de compartilhar e manter uma fonte d
 #### [Técnicas de Invasão: Aprenda as técnicas usadas por hackers em invasões reais](https://www.amazon.com.br/gp/product/B08255WXST/ref=ppx_yo_dt_b_d_asin_title_o01?ie=UTF8&psc=1)
 * [Notas do livro](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Livros_CyberSeguran%C3%A7a/T%C3%A9cnicas%20de%20Invas%C3%A3o%20Aprenda%20as%20t%C3%A9cnicas%20usadas%20por%20hackers%20em%20invas%C3%B5es%20reais.md)
  Técnicas de Invasão Aprenda as técnicas usadas por hackers em invasões reais
+
+#### [Introdução ao Pentest](https://www.amazon.com.br/Introdu%C3%A7%C3%A3o-ao-Pentest-Daniel-Moreno/dp/8575228072/ref=asc_df_8575228072/?tag=googleshopp00-20&linkCode=df0&hvadid=379773616949&hvpos=&hvnetw=g&hvrand=5687880631850878690&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100814&hvtargid=pla-850530960141&psc=1)
  
 ## Cursos
 #### [EC-Council](https://www.eccouncil.org/)
