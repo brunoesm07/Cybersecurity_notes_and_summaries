@@ -193,3 +193,85 @@ São usadas para coletar informações básicas sobre os sistemas de destino par
 
 # Módulo 3 - Information Security Threats and Vulnerability Assessment
 
+É importante entender a diferença entre uma ameaça à segurança e uma vulnerabilidade. Ameaças à segurança são incidentes que impactam negativamente a infraestrutura de TI da organização, enquanto as vulnerabilidades são falhas de segurança ou falhas em um sistema ou rede que tornam as ameaças possíveis de serem exploradas.
+
+Os invasores usam ameaças cibernéticas para se infiltrar e roubar dados como dados individuais
+informações pessoais, financeiras e credenciais de login.
+
+A criticidade de uma ameaça é baseada em quanto dano que pode causar, o quão incontrolável é, ou o nível de complexidade na identificação com antecedência.
+
+Exemplos de ameaça:
+- Roubo de dados confidenciais de uma organização
+- Infecção de um sistema com malware
+- Alteração dos dados em um servidor de banco de dados
+
+#### Fontes de Ameaças
+
+Elas podem ser classificadas como ameaças naturais, ameaças não intencionais e ameaças intencionais.
+
+**Ameaças Naturais** -> Fatores naturais, como incêndios, inundações, falhas de energia, raios, meteoros e terremotos são ameaças potenciais aos ativos de uma organização.
+
+**Ameaças não intencionais** -> Ameaças não intencionais são ameaças que existem devido ao potencial de erros não intencionais ocorrendo dentro da organização. Os exemplos incluem negligência, erros do operador, administradores não qualificados, funcionários preguiçosos ou não treinados e acidentes.
+
+**Ameaças intencionais** -> podem ser internas ou externas
+
+- **Internas**: Essas ameaças são executadas por pessoas de dentro da organização, como por exemplo funcionários descontentes. As causas dos ataques internos podem ser vingança, desrespeito, frustração ou falta de consciência de segurança.
+
+- **Externas**: Os invasores podem realizar tais ataques para obter ganhos financeiros, para prejudicar a reputação da organização-alvo, ou simplesmente por curiosidade.
+
+### Malware
+
+Malware é um software malicioso que danifica ou desativa sistemas de computador e fornece acesso limitado ou controle total dos sistemas ao criador do malware para atividades maliciosas. Malware inclui vírus, worms, trojans, rootkits, backdoors, botnets, ransomware, spyware, adware, scareware, crapware, roughware, crypters, keyloggers, etc.
+
+Algumas técnicas usadas para distribuir malware na web são:
+
+- **Black hat SEO**: usa táticas agressivas de SEO, como preenchimento de palavras-chave, inserção de páginas de entrada, troca de página e adição de palavras-chave não relacionadas para obter classificações mais altas nos mecanismos de pesquisa.
+
+- **Click-jacking**: os invasores injetam malware em sites que parecem legítimos para induzir os usuários a clicar neles.Quando clicado, o malware embutido no link é executado sem o conhecimento ou consentimento do usuário.
+
+- **Spear-Phishing**
+
+- **Malvertising**: Esta técnica envolve a incorporação de anúncios carregados de malware em
+canais de publicidade on-line legítimos para espalhar malware em sistemas de usuários.
+
+- **Sites legítimos comprometidos**: frequentemente, os invasores usam sites comprometidos para
+infectar sistemas com malware.
+
+#### Componentes do Malware
+
+Os autores e invasores de malware os criam usando componentes que podem ajudá-los a atingir seus objetivos. Certos componentes essenciais da maioria dos programas de malware são os seguintes:
+
+- **Crypter**: software que pode ocultar a existência de malware. Os invasores usam para iludir a detecção de antivírus.
+
+- **Downloader**: é um tipo de Trojan que baixa outro malware (ou) código malicioso e arquivos da Internet para um PC ou dispositivo.
+
+- **Dropper**: pode transportar código de malware e executar malware em um sistema de destino sem ser detectado por scanners antivírus.
+
+- **Exploit**: é a parte do malware que contém código ou uma sequência de comandos que podem tirar proveito de um bug ou vulnerabilidade em um sistema ou dispositivo digital.
+
+- **Injector**: injeta exploits ou códigos maliciosos disponíveis no malware em outros processos em execução vulneráveis ​​e muda o método de execução para ocultar ou impedir sua remoção.
+
+- **Obfuscator**: é um programa que oculta o código malicioso de malware através de várias técnicas, tornando difícil para os mecanismos de segurança detectá-lo ou removê-lo.
+
+- **Packer**: comprime o arquivo de malware para converter o código e os dados do malware em um formato ilegível.
+
+- **Payload**: é a parte do malware que executa a atividade desejada quando ativado. Pode ser usado para excluir ou modificar arquivos, degradando o sistema, abrindo portas, alterando configurações e assim por diante, para comprometer o sistema de segurança.
+
+- **Código Malicioso**:  pedaço de código que define a funcionalidade básica do malware e compreende comandos que resultam em violações de segurança.
+
+#### Tipos de Malware
+
+Um malware é um software malicioso projetado para executar atividades conforme pretendido pelo invasor, sem o consentimento do usuário. Isso pode ser na forma de código executável, conteúdo ativo, scripts ou outros tipos de software.
+
+Abaixo estão vários tipos de malware:
+
+- Trojans
+- Vírus
+- Ransomware
+- Worms
+- Rootkits
+- Spyware
+- Keylogger
+- Botnets
+
+
