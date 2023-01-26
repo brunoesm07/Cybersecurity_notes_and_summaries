@@ -205,7 +205,7 @@ Exemplos de ameaça:
 - Infecção de um sistema com malware
 - Alteração dos dados em um servidor de banco de dados
 
-#### Fontes de Ameaças
+## Fontes de Ameaças
 
 Elas podem ser classificadas como ameaças naturais, ameaças não intencionais e ameaças intencionais.
 
@@ -219,7 +219,7 @@ Elas podem ser classificadas como ameaças naturais, ameaças não intencionais 
 
 - **Externas**: Os invasores podem realizar tais ataques para obter ganhos financeiros, para prejudicar a reputação da organização-alvo, ou simplesmente por curiosidade.
 
-### Malware
+## Malware
 
 Malware é um software malicioso que danifica ou desativa sistemas de computador e fornece acesso limitado ou controle total dos sistemas ao criador do malware para atividades maliciosas. Malware inclui vírus, worms, trojans, rootkits, backdoors, botnets, ransomware, spyware, adware, scareware, crapware, roughware, crypters, keyloggers, etc.
 
@@ -265,13 +265,140 @@ Um malware é um software malicioso projetado para executar atividades conforme 
 
 Abaixo estão vários tipos de malware:
 
-- Trojans
+- Trojans -> programa no qual um código malicioso ou prejudicial é contido dentro de um programa ou dados aparentemente inofensivos, que mais tarde podem ganhar controle e causar danos.
+
 - Vírus
-- Ransomware
-- Worms
-- Rootkits
-- Spyware
-- Keylogger
-- Botnets
+
+- Ransomware -> tipo de malware que restringe, através de criptografia, o acesso ao sistema do computador infectado ou arquivos críticos e documentos armazenados nele e, em seguida, exige um pagamento de resgate.
+
+- Worms -> são programas maliciosos autônomos que se replicam, executam e se espalham em conexões de rede de forma independente, sem intervenção humana. Os invasores costumam usar cargas de worms para instalar backdoors em computadores infectados, o que os transforma em "zumbis" e cria uma botnet.
+
+- Rootkits -> softwares projetados para obter acesso a um computador sem serem detectados. O objetivo de um rootkit é obter privilégios de root em um sistema.
+
+- Spyware -> software furtivo de monitoramento de computador que permite gravar secretamente todas as atividades do usuário. Isso permite que um invasor reúna informações sobre uma vítima ou organização, como endereços de e-mail, logins de usuários, senhas, números de cartão de crédito e credenciais bancárias.
+
+- Keylogger -> software ou dispositivos de hardware que registram as teclas pressionadas no teclado de computador. Um keylogger, quando associado a spyware, ajuda a transmitir as informações de um usuário para um atacante.
+
+- Botnets -> conjunto de computadores comprometidos conectados à Internet utilizados, sem a permissão do usuário, para executar tarefas distribuídas automatizadas. Botmasters lançam ataques DDoS em usuários-alvo específicos que consomem a largura de banda do computador da vítima.. Podem também usar bots para aumentar o faturamento de anúncios na web, clicando automaticamente nestes.
+
+#### Virus Maker Tools
+
+- DELmE’s Batch Virus Maker -> programa de criação de vírus com muitas opções para infectar o PC da vítima.
+- JPS Virus Maker ->usada para criar vírus personalizados.
+- Bhavesh Virus Maker SKW
+- SonicBat Batch Virus Maker
+
+#### Worm Makers Tools 
+
+- Internet Worm Maker Thing -> ferramenta de código aberto usada para criar worms.
+- Batch Worm Generator
+- C++ Worm Generator
 
 
+### Contramedidas de Malware
+
+Impedem a entrada de malware em um sistema e minimizam o risco causado por ele em sua entrada.
+
+##### Trojan
+- Evite abrir anexos de e-mail recebidos de remetentes desconhecidos
+- Bloqueie todas as portas desnecessárias no host e use um firewall
+- Evite aceitar programas transferidos por mensagens instantâneas
+- Fortalecer definições de configuração padrão fracas e desabilitar funcionalidades não utilizadas, incluindo protocolos e serviços
+- Monitore o tráfego de rede interna em busca de portas estranhas ou tráfego criptografado
+- Evite baixar e executar aplicativos de fontes não confiáveis
+- Instalar patches e atualizações de segurança para o sistema operacional e aplicativos
+- Escaneie drives USB externos e DVDs com software antivírus antes de usá-los
+- Restrinja as permissões no ambiente da área de trabalho para impedir a instalação de aplicativos maliciosos
+- Execute antivírus baseado em host, firewall e software de detecção de intrusão
+
+##### Virus e Worms
+- Instale um software antivírus que detecte e remova infecções à medida que aparecem
+- Preste atenção às instruções ao baixar arquivos ou programas da Internet
+- Atualize regularmente o software antivírus
+- Evite abrir anexos recebidos de remetentes desconhecidos, pois os vírus se espalham por meio de anexos de e-mail
+- Como as infecções por vírus podem corromper os dados, certifique-se de fazer backups regulares dos dados
+- Agende varreduras regulares para todas as unidades após a instalação do software antivírus
+- Mantenha-se informado sobre as últimas ameaças de vírus
+- Certifique-se de que os bloqueadores de pop-up estejam ativados e use um firewall de Internet
+- Execute anti-spyware ou anti-adware uma vez por semana
+- Não abra arquivos com mais de uma extensão de tipo de arquivo
+
+## Vulnerabilidades
+
+Uma vulnerabilidade refere-se a uma fraqueza no projeto ou implementação de um sistema que pode ser explorado para comprometer a segurança do sistema. As vulnerabilidades presentes em um sistema ou rede são classificadas nas seguintes categorias:
+
+##### Configuração incorreta
+
+É a vulnerabilidade mais comum e é causada principalmente por erro, que permite que invasores obtenham acesso não autorizado ao sistema. Pode acontecer intencionalmente ou não e afeta servidores web, plataformas de aplicativos, bancos de dados e redes.
+
+##### Instalações Defaut (padrão)
+
+Ao não alterar as configurações padrão durante a implantação do software ou hardware permite-se que o invasor adivinhe as configurações, facilitando a invasão do sistema.
+
+##### Buffer Overflows
+
+São vulnerabilidades de software comuns que ocorrem devido a erros de codificação que permitem aos invasores obter acesso ao sistema de destino.
+
+##### Unpatched Servers
+
+Os servidores são um componente essencial da infraestrutura de qualquer organização. Há vários casos em que as organizações executam servidores sem patches e mal configurados. A atualização de software regularmente corrigindo bugs pode ajudar a mitigar.
+
+##### Senhas Padrão ou Fracas
+
+Os fabricantes fornecem aos usuários senhas padrão para acessar o dispositivo durante sua configuração inicial, que os usuários devem alterar para uso futuro.
+
+##### Zero Day
+
+Vulnerabilidades de dia zero são vulnerabilidades até então desconhecidas em software/hardware. Estes são explorados pelos atacantes antes de serem reconhecidos e corrigidos pelos desenvolvedores ou analistas de segurança.
+
+##### Plataforma Legada
+
+As vulnerabilidades da plataforma legada são expostas a partir de códigos antigos ou familiares.
+
+### Vulnerabilidades de Redes
+
+##### Tecnológicas
+- Protocolos TCP/IP
+- Sistemas Operacionais
+- Dispositivos de rede -> roteadores, firewall e switches 
+
+##### Configurações
+- Conta de usuário
+- Conta do sistema -> originado da configuração de senhas fracas para as contas.
+- Configuração incorreta do dispositivo de rede
+
+##### Política de Segurança
+- Política não escrita -> são difíceis de implementar e fazer cumprir
+- Falta de continuidade
+- Falta de consciência
+
+### Impacto das Vulnerabilidades
+
+- Divulgação de informações: um site ou aplicativo pode expor informações específicas do sistema em formação.
+- Negação de serviço: vulnerabilidades podem impedir que os usuários acessem os serviços do site ou outros recursos. 
+- Escalonamento de privilégios: os invasores podem obter acesso elevado a um sistema protegido.
+- Acesso não autorizado: Os invasores podem obter acesso não autorizado a um sistema, uma rede, dados ou um aplicativo.
+- Roubo de identidade: Os invasores podem roubar as informações pessoais ou financeiras de usuários para cometer fraudes com sua identidade.
+- Exfiltração de dados: Vulnerabilidades podem levar à recuperação não autorizada e transmissão de dados sensíveis.
+- Danos à reputação: Vulnerabilidades podem causar danos à reputação de uma empresa. Danos à reputação têm impacto direto sobre clientes, vendas e lucro.
+- Consequências legais: Se os dados pessoais dos clientes forem comprometidos, a organização pode precisar enfrentar consequências legais na forma de multas e sanções regulatórias.
+
+### Ferramentas para Pesquisa de Vulnerabilidades
+
+A pesquisa de vulnerabilidade é o processo de análise de protocolos, serviços e configurações para
+descobrir as vulnerabilidades e falhas de projeto. Um hacker ético precisa acompanhar as vulnerabilidades descobertas mais recentemente.
+
+- Microsoft Vulnerability Research (MSVR) (https://www.microsoft.com)
+- Dark Reading (https://www.darkreading.com)
+- SecurityTracker (https://securitytracker.com)
+- Trend Micro (https://www.trendmicro.com)
+- Security Magazine (https://www.securitymagazine.com)
+- PenTest Magazine (https://pentestmag.com)
+- Revista SC (https://www.scmagazine.com)
+- Exploit Database (https://www.exploit-db.com)
+- SecurityFocus (https://www.securityfocus.com)
+- Help Net Security (https://www.helpnetsecurity.com)
+- HackerStorm (http://www.hackerstorm.co.uk)
+- Computerworld (https://www.computerworld.com)
+- WindowsSecurity (http://www.windowsecurity.com)
+- D'Crypt (https://www.d-crypt.com)
