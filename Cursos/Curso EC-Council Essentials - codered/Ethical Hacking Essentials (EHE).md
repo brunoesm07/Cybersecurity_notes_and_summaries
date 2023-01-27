@@ -402,3 +402,52 @@ descobrir as vulnerabilidades e falhas de projeto. Um hacker ético precisa acom
 - Computerworld (https://www.computerworld.com)
 - WindowsSecurity (http://www.windowsecurity.com)
 - D'Crypt (https://www.d-crypt.com)
+
+### Sistemas de Pontuação e Banco de Dados de Vulnerabilidades
+
+Devido à crescente gravidade dos ataques cibernéticos, a pesquisa de vulnerabilidade tornou-se crítica, pois ajuda a mitigar a chance de ataques. Sistemas de pontuação e bancos de dados de vulnerabilidades são usados ​​por analistas de segurança para classificar vulnerabilidades do sistema de informação e para fornecer uma pontuação da gravidade geral e riscos associados.
+
+Alguns dos sistemas de pontuação e bancos de dados de vulnerabilidade:
+
+- Sistema de Pontuação de Vulnerabilidade Comum ([CVSS](: https://www.first.org, https://nvd.nist.gov))
+- Vulnerabilidades e Exposições Comuns ([CVE](: https://cve.mitre.org))
+- Base de Dados Nacional de Vulnerabilidades ([NVD](: https://nvd.nist.gov))
+- Enumeração de Fraqueza Comum ([CWE](https://cwe.mitre.org))
+
+### Ciclo de Vida do Gerenciamento de Vulnerabilidades
+
+É um processo importante que ajuda a identificar e corrigir falhas de segurança antes que elas possam ser exploradas. O gerenciamento de vulnerabilidades fornece os melhores resultados quando é implementado em uma sequência de fases bem organizadas.
+
+As fases envolvidas no gerenciamento de vulnerabilidades são:
+
+- Identificar ativos críticos e definir o risco com base na criticidade e valor de cada sistema.
+- Varredura de vulnerabilidade para avaliar os pontos fracos da infraestrutura da organização
+- Avaliação de Risco: determina se o nível de risco para um determinado ativo é alto, moderado ou baixo.
+- Remediação: processo de aplicação de correções em sistemas vulneráveis ​​para reduzir o impacto e a gravidade das vulnerabilidades.
+- Verificação: a equipe de segurança realiza uma nova verificação dos sistemas para avaliar se os requisitos de correção estão concluídos e se as correções individuais foram aplicadas aos ativos impactados.
+- Monitoramento: As organizações precisam realizar monitoramento regular para manter a segurança do sistema.
+
+### Ferramentas de Avaliação de Vulnerabilidades
+
+Os analistas de segurança podem usar ferramentas de avaliação de vulnerabilidade para identificar os pontos fracos presentes na postura de segurança da organização.
+
+- Qualys Vulnerability Management (https://www.qualys.com)
+- OpenVAS (https://www.openvas.org)
+- GFI LanGuard (: https://www.gfi.com)
+- Nessus Professional (https://www.tenable.com) 
+- Nikto (https://cirt.net)
+- Qualys FreeScan (https://freescan.qualys.com)
+
+### Exploração de Vulnerabilidade (Exploitation)
+
+A exploração de vulnerabilidade envolve a execução de várias etapas complexas e inter-relacionadas para obter acesso a um sistema remoto.
+
+Etapas envolvidas na exploração de vulnerabilidades:
+
+1. Identifique a vulnerabilidade
+2. Determine o risco associado à vulnerabilidade
+3. Determine a capacidade da vulnerabilidade (Se o risco for baixo, os invasores podem determinar a capacidade de explorar essa vulnerabilidade para obter acesso remoto ao sistema de destino.)
+4. Desenvolva a exploração (atacantes usam exploits de sites de exploração como o [Exploit Database](https://www.exploit-db.com))
+5. Selecione o método de entrega
+6. Gere e entregue a carga útil (maliciosas) (Os atacantes geram ou selecionam cargas maliciosas usando ferramentas como Metasploit e o entregam ao sistema remoto usando engenharia social ou através de uma rede.)
+7. Obtenha o acesso remoto (Agora, os invasores podem executar vários comandos maliciosos no shell remoto e controlar o sistema.)
