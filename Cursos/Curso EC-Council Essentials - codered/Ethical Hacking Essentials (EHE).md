@@ -129,11 +129,10 @@ O hacker é uma pessoa que invade um sistema ou rede sem autorização para dest
 Em geral, existem cinco fases de hacking:
 
 - **Reconhecimento (reconnaissance)**
-- **Varredura (scanning)**
+- **Varredura (scanning)** -> mapeia a rede, incluindo a marca e o modelo dos dispositivos, verificando serviços de escuta, aprendendo os sistemas operacionais e evidências de dados.
 - **Obtenção de Acesso (gaining access)** -> refere-se ao ponto em que o invasor obtém acesso ao sistema operacional ou aos aplicativos no computador ou na rede. Depois que um invasor obtém acesso ao sistema de destino, ele tenta escalar privilégios para assumir o controle total.
 - **Manutenção do Acesso (maintaining access)**
-- **Limpeza de Pistas (clearing tracks)** -> limpar rastros refere-se às atividades
-realizada por um invasor para ocultar atos maliciosos.
+- **Limpeza de Pistas (clearing tracks)** -> limpar rastros refere-se às atividades realizada por um invasor para ocultar atos maliciosos.
 
 Os termos “cracker” e “attacker” referem-se a pessoas que empregam suas habilidades de hacker para fins ofensivos (maliciosos).
 

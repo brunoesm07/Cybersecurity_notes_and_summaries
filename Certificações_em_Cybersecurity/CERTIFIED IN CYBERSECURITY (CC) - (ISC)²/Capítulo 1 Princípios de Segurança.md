@@ -12,11 +12,23 @@ Todos os dados precisam de alguma forma de segurança; mesmo os dados que não s
 
 **Confidentiality** (confidencialidade) - A característica dos dados ou informações quando não são disponibilizados ou divulgados a pessoas ou processos não autorizados. Exemplos de quebra de confidencialidade: escalonamento de privilégios e quebra de senhas.
 
+- Snooping: envolve a coleta de informações que são deixadas em aberto. => Proteção: política de mesa limpa
+- Eavesdropping: escutas, intervenção não autorizada e invisível de uma conversa privada ao vivo.=> Proteção: criptografar as informações enviadas pela rede.
+- Engenharia Social
+
 **Integrity** (integridade) - A propriedade da informação pela qual ela é registrada, usada e mantida de forma a garantir sua integridade, precisão, consistência interna e utilidade para um propósito declarado. Um exemplo de quebra de integridade seria quando um funcionário tenta alterar a planilha de pagamentos sem permissão para tal.
+
+- Unauthorized modification: atacante ganha acesso e faz alterações sem permissão.  => Proteção: princípio do menor privilégio
+- Impersonation: atacante finge ser outra pessoa. 
+- Man-in-the-middle: intercepta o tráfego de rede, ficando no meio da comunicação e monitorando tudo o que está acontecendo. => Proteção: uso de criptografia
 
 **Availability** (disponibilidade) - Garantir acesso oportuno e confiável e uso de informações por usuários autorizados. Um exemplo de quebra de disponibilidade é o ataque DoS (Negação de Serviço).
 
-
+- Denial of Service (DoS): bombardeamento em um sistema com uma quantidade esmagadora de tráfego.  => Proteção: uso de firewalls que bloqueiam pedidos ilegitimos
+- Queda de energia
+- Falhas de hardware => Proteção: uso de redundância de equipamentos
+- Destruição => Proteção: backup
+- Interrupção de serviço
 
 **Privacy** (privacidade) -O direito de um indivíduo de controlar a distribuição de informações sobre si mesmo.
 
@@ -30,7 +42,17 @@ Todos os dados precisam de alguma forma de segurança; mesmo os dados que não s
 
 **Authorization** - O direito ou uma permissão concedida a uma entidade do sistema para acessar um recurso do sistema.  NIST 800-82 Rev.2
 
-## Autenticação (Authentication)
+**Accouting** - Mantém logs que permitem aos administradores rastrear a atividade do usuário. Deve estar dentro dos limites estabelecidos pela lei e a política de privacidade da organização.
+
+## Controle de Acesso
+
+### Identificação
+
+Envolve fazer uma reivindicação de identidade. O usuário faz uma declaração, mas pode estar fazendo uma declaração falsa.
+
+A identificação eletrônica geralmente utiliza *usernames*.
+
+### Autenticação (Authentication)
 
 Processo de controle de acesso que compara um ou mais fatores de identificação para validar que a identidade reivindicada por um usuário ou entidade é conhecida pelo sistema.
 
@@ -41,7 +63,9 @@ Existem 3 métodos comuns de autenticação:
 
 Existem dois tipos de autenticação. O uso de apenas um dos métodos é conhecido como **Autenticação de Fator Único (SFA)**. A concessão de acesso após a demonstração ou exibição bem sucedida de dois ou mais  métodos é conhecida como **Autenticação Multifator (MFA)**.
 
+### Autorização
 
+Garante que uma ação é permitida. Geralmente assume a forma de listas de controle de acesso que detalham as permissões especificas que são concedidas a um usuário individual ou grupo de usuários.
 
 ## Risco
 
