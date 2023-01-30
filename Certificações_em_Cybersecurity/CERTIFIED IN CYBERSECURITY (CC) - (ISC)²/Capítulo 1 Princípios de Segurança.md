@@ -32,9 +32,9 @@ Todos os dados precisam de alguma forma de segurança; mesmo os dados que não s
 
 **Privacy** (privacidade) -O direito de um indivíduo de controlar a distribuição de informações sobre si mesmo.
 
-**Non-repudiation** - A incapacidade de negar a realização de uma ação, como criar informações, aprovar informações e enviar ou receber uma mensagem.
+**Non-repudiation** - A incapacidade de negar a realização de uma ação, como criar informações, aprovar informações e enviar ou receber uma mensagem. Impede alguém de negar a verdade.
 *  O não-repúdio  é um termo legal e é definido como a proteção contra um indivíduo que nega falsamente ter realizado uma determinada ação.
-* As metodologias de não repúdio garantem que as pessoas sejam responsabilizadas pelas transações que conduziram. 
+* As metodologias de não repúdio garantem que as pessoas sejam responsabilizadas pelas transações que conduziram. Ex: assinaturas digitais
 
 **Criticality** (criticidade)  - Uma medida do grau em que uma organização depende da informação ou sistema de informação para o sucesso de uma missão ou de uma função de negócios.
 
@@ -69,14 +69,18 @@ Garante que uma ação é permitida. Geralmente assume a forma de listas de cont
 
 ## Risco
 
+Riscos são a combinação de uma ameaça e uma vulnerabilidade. Ocorrem quando um ambiente contém uma vulnerabilidade e uma ameaça correspondente que pode explorar essa vulnerabilidade.
+
 #### Gerenciamento de Risco
 
 - Um **ativo** é algo que precisa de proteção.
 
--  Uma **vulnerabilidade** é uma lacuna ou fraqueza nesses esforços de proteção. É uma fraqueza ou falha inerente em um sistema ou componente que, se desencadeada ou atuada, pode causar a ocorrência de um evento de risco.
+-  Uma **vulnerabilidade** é uma lacuna ou fraqueza nesses esforços de proteção. É uma fraqueza ou falha inerente em um sistema ou componente que, se desencadeada ou atuada, pode causar a ocorrência de um evento de risco. Poderá ser explorada por uma ameaça.
+
+Exemplos de vulnerabilidades: ausência de patches, regras frágeis de firewall, configurações incorretas.
 
 -  Uma **ameaça** é uma pessoa ou coisa que toma medidas para explorar (ou fazer uso de) as vulnerabilidades do sistema de uma organização-alvo, como parte de atingir ou promover sua meta ou objetivos.
-		* Vetor de Ameaça: O meio pelo qual um ator de ameaça realiza seus objetivos.
+		* Vetor de Ameaça: O meio pelo qual um ator de ameaça realiza seus objetivos. Método que um invasor usa para chegar ao seu alvo.
 		* Agente de ameaça: Um indivíduo ou grupo que tenta explorar vulnerabilidades para causar ou forçar a ocorrência de uma ameaça.
 
 -   **Probabilidade de ocorrência** é um fator ponderado com base em uma análise subjetiva da probabilidade de uma determinada ameaça ser capaz de explorar uma determinada vulnerabilidade ou conjunto de vulnerabilidades.
@@ -87,10 +91,12 @@ A avaliação de riscos  é definida como o processo de identificação, estim
 
 #### Tratamento de risco (Risk Treatment)
 
+Analisa e implementa possíveis respostas para controlar o risco.
+
 Risk Transference - A transferência de risco é a prática de transferir o risco para outra parte, que aceitará o impacto financeiro do dano resultante da realização de um risco em troca de pagamento. Normalmente, esta é uma apólice de seguro.
 
-Risk Avoidance - A prevenção do risco é a decisão de tentar eliminar totalmente o risco. 
-	
+Risk Avoidance - A prevenção do risco é a decisão de tentar eliminar totalmente o risco.  Mudar as práticas de negócios para tornar um risco irrelevante.
+
 Risk Acceptance - Aceitação de risco é não tomar nenhuma ação para reduzir a probabilidade de ocorrência de um risco.
 	
 Risk Mitigation - A mitigação de riscos é o tipo mais comum de gerenciamento de riscos e inclui a tomada de ações para prevenir ou reduzir a possibilidade de um evento de risco ou seu impacto. 
