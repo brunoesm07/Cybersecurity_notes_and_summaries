@@ -36,7 +36,7 @@ A defesa em profundidade deve ser implementada para prevenir ou impedir um ataqu
 
 ## Princípo do Menor Privilégio 
 
-O princípio de que usuários e programas devem ter apenas os privilégios mínimos necessários para concluir suas tarefas.
+É o princípio de que usuários e programas devem ter apenas o conjunto de privilégios mínimos necessários para concluir suas tarefas. O privilégio mínimo minimiza o dano potencial de um ataque interno e limita a capacidade de um invasor externo para obter rapidamente acesso privilegiado.
 
 
 
@@ -70,7 +70,6 @@ A maioria dos sistemas de informação no mundo são sistemas DAC.
 ### Controle de Acesso Obrigatório (MAC)
 
 Controle de acesso que exige que o próprio sistema gerencie os ontroles de acesso de acordo com as políticas de segurança da organização.
-
 
 Embora o MAC pareça muito semelhante ao DAC, a principal diferença é quem pode controlar o acesso. Com o Mandatory Access Control, é obrigatório que os administradores de segurança atribuam direitos ou permissões de acesso; com Controle de Acesso Discricionário, fica a critério do proprietário do objeto.
 

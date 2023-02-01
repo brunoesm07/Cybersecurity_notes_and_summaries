@@ -56,13 +56,17 @@ Quando ocorre um incidente, a equipe de resposta tem quatro responsabilidades pr
 3.   Implementar todos os procedimentos de recuperação necessários para restaurar a segurança e recuperar-se de danos relacionados ao incidente.
 4.  Supervisionar a implementação de quaisquer medidas de segurança adicionais necessárias para melhorar a segurança e evitar a recorrência do incidente.
 
+**Os socorristas devem agir rapidamente tendo como prioridade mais alta conter danos através do isolamento dos sistemas afetados.**
+
 **Resposta a Incidentes (IR)** - A mitigação de violações de políticas de segurança e práticas recomendadas. Fonte: NIST SP 800-61 Rev 2
 
 **Plano de Resposta a Incidentes (IRP)** - A documentação de um conjunto predeterminado de instruções ou procedimentos para detectar, responder e limitar as consequências de um ataque cibernético mal-intencionado contra os sistemas de informação de uma organização. Fonte: NIST SP 800-34 Rev 1
 
+Os planos de comunicação garantem que todos os participantes tenham informações oportunas e precisas. Devem ser limitadas as comunicações externas a partes confiáveis e sempre envolva a equipe jurídica de sua própria organização.
 
 
-## Plano de Continuidade de Negócios (Business Continuity Plan - BC)
+
+## Plano de Continuidade de Negócios (Business Continuity Plan - BCP)
 
 A intenção de um **plano de continuidade de negócios** é sustentar as operações de negócios enquanto se recupera de uma interrupção significativa.
 
@@ -79,7 +83,7 @@ Cada organização individual deve determinar com que frequência testar seu BCP
 -   Como/quando implementar o plano.
 -   Números de contato para membros críticos da cadeia de suprimentos (fornecedores, clientes, possíveis provedores externos de emergência, parceiros terceirizados).
 
-
+O planejamento de continuidade de negócios na nuvem requer colaboração entre provedores e clientes.
 
 ## Disaster Recovery
 
@@ -101,3 +105,7 @@ A lista a seguir inclui vários tipos de documentos que vale a pena considerar:
 	- Os membros da equipe de recuperação de desastres críticos terão listas de verificação para ajudar a orientar suas ações em meio à atmosfera caótica de um desastre.
 	- O pessoal de TI terá guias técnicos para ajudá-los a colocar os sites alternativos em funcionamento.
 	- Os gerentes e o pessoal de relações públicas terão documentos simples de seguir e de alto nível para ajudá-los a comunicar o problema com precisão, sem exigir informações dos membros da equipe que estão ocupados trabalhando na recuperação.
+
+###### Backups
+
+Os backups são provavelmente o componente mais importante de qualquer plano de recuperação de desastres porque a maioria das empresas hoje é construída em torno de seus dados. Os backups fornecem às organizações uma maneira segura de recuperar seus dados em caso de falha de tecnologia, erro humano, desastre natural ou outras circunstâncias que resultem na exclusão ou modificação acidental ou intencional de dados.
