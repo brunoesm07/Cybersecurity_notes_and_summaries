@@ -107,13 +107,13 @@ Uma porta lógica (também chamada de soquete) é pouco mais que um número de e
 Alguns protocolos de rede transmitem informações em texto não criptografado, o que significa que não são criptografadas e não devem ser usadas. Abaixo alguns dos protocolos inseguros juntamente com as alternativas seguras recomendadas.
 
 ##### 21 - FTP Protocolo de transferência de arquivos
-A porta 21, File Transfer Protocol (FTP) envia o nome de usuário e a senha usando texto sem formatação do cliente para o servidor. Isso pode ser interceptado por um invasor e posteriormente usado para recuperar informações confidenciais do servidor. A alternativa segura, SFTP, na porta 22 usa criptografia para proteger as credenciais do usuário e os pacotes de dados que estão sendo transferidos.
+A porta 21, File Transfer Protocol (FTP) envia o nome de usuário e a senha usando texto sem formatação do cliente para o servidor. Isso pode ser interceptado por um invasor e posteriormente usado para recuperar informações confidenciais do servidor. A alternativa segura, SFTP (SSH), na porta 22 usa criptografia para proteger as credenciais do usuário e os pacotes de dados que estão sendo transferidos.
 
 ##### 53 - DNS Serviço de nome de domínio
 A porta 53, Domain Name Service (DNS), ainda é amplamente utilizada. No entanto, usar DNS sobre TLS (DoT) na porta 853 protege as informações de DNS de serem modificadas em trânsito.
 
 ##### 80 - HTTP Protocolo de Transferência de Hipertexto
-A porta 80, HyperText Transfer Protocol (HTTP) é a base de quase todo o tráfego do navegador da web na Internet. As informações enviadas via HTTP não são criptografadas e são suscetíveis a ataques de sniffing. HTTPS usando criptografia TLS é o preferido, pois protege os dados em trânsito entre o servidor e o navegador.
+A porta 80, HyperText Transfer Protocol (HTTP) é a base de quase todo o tráfego do navegador da web na Internet. As informações enviadas via HTTP não são criptografadas e são suscetíveis a ataques de sniffing. HTTPS (porta 443) usando criptografia TLS é o preferido, pois protege os dados em trânsito entre o servidor e o navegador.
 
 endpoint <------> Web server
 

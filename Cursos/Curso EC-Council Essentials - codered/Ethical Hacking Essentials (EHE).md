@@ -178,6 +178,13 @@ Google hacking refere-se ao uso de operadores avançados de pesquisa do Google p
 
 A sintaxe para usar um operador de pesquisa avançada é a seguinte: operator: **search_term**
 
+Exemplos:
+- site: -> Restringe os resultados ao domínio determinado
+- intitle: -> Restringe os resultados a documentos que contenham a palavra-chave de pesquisa no título
+- inurl: -> Restringe os resultados a documentos que contenham a palavra-chave de pesquisa na URL
+
+*(games site: www.certifiedhacker.com) consulta fornece informações sobre jogos do site certifiedhacker
+
 #### Ferramentas de Reconhecimento
 
 São usadas para coletar informações básicas sobre os sistemas de destino para que se possa explora-los.
@@ -450,3 +457,129 @@ Etapas envolvidas na exploração de vulnerabilidades:
 5. Selecione o método de entrega
 6. Gere e entregue a carga útil (maliciosas) (Os atacantes geram ou selecionam cargas maliciosas usando ferramentas como Metasploit e o entregam ao sistema remoto usando engenharia social ou através de uma rede.)
 7. Obtenha o acesso remoto (Agora, os invasores podem executar vários comandos maliciosos no shell remoto e controlar o sistema.)
+
+# Módulo 4 - Password Cracking Techniques and Countermeasures
+
+A seleção de senha fraca tem sido a falha de segurança mais comum enfrentada pelas organizações e indivíduos nos últimos tempos. Os invasores usam muitas técnicas e ferramentas sofisticadas para quebrar senhas e obter acesso a redes e sistemas críticos.
+
+## Quebra de Senha
+
+Um atacante pode quebrar uma senha manualmente, adivinhar ou usar ferramentas e técnicas automatizadas, como um dicionário ou uma ferramenta de força bruta. A maioria das técnicas de quebra de senha são bem-sucedidas por causa de senhas fracas.
+
+O atacante utiliza essa técnica para obter acesso não autorizado a sistemas vulneráveis.
+
+#### Complexidade da senha
+
+A complexidade da senha desempenha um papel fundamental na melhoria da segurança contra ataques. É o elemento mais importante que os usuários devem garantir.
+
+#### Tipos de ataques para quebra de senha
+
+Há quatro tipos, segundo as ações do atacante:
+
+- Ataques Não-Eletrônicos: Esta é, na maioria dos casos, a primeira tentativa do atacante de ganhar senhas do sistema de destino. Técnicas usadas para executar ataques não eletrônicos incluem **shoulder surfing, engenharia social e dumpster diving**.
+
+- Ataques Online Ativos: Esta é uma das maneiras mais fáceis de obter acesso ao sistema em nível de administrador. Aqui, o atacante se comunica com a máquina-alvo para obter acesso a senha. Técnicas usadas para realizar ataques online ativos incluem **adivinhação de senha, dicionário e ataques de força bruta e injeção de hash.
+
+- Ataques Online Passivos: Um ataque passivo é um tipo de ataque que não leva a qualquer alteração no sistema. Neste ataque, o atacante não precisa se comunicar com o sistema, mas monitora ou registra passivamente os dados que passam pela rede. As técnicas usadas para executar ataques on-line passivos incluem **man-in-the-middle, wire sniffing e replay attack**.
+
+- Ataques offline: Ataques offline referem-se a ataques de senha nos quais um invasor tenta recuperar senhas através de texto simples de um despejo de hash de senha. Os invasores usam hashes pré-computados de **Rainbow Tables** para executar ataques de rede offline e distribuídos.
+
+###### Dictionary, Brute-Force, and Rule-based Attack
+
+**Ataque de dicionário**
+
+Nesse tipo de ataque, um arquivo de dicionário é carregado em um aplicativo de cracking que executa
+contra contas de usuário. Este dicionário é um arquivo de texto que contém várias palavras do dicionário
+comumente usados ​​como senhas.
+
+Este ataque é aplicável em duas situações:
+
+- Na análise criptográfica, para descobrir a chave de descriptografia para obter o texto simples de um texto cifrado.
+- Na segurança do computador, para ignorar a autenticação e acessar o mecanismo de controle do computador.
+
+**Ataque de força bruta**
+
+Em um ataque de força bruta, os invasores tentam todas as combinações de caracteres até que a senha seja quebrada.
+
+**Ataque baseado em regras**
+
+Os invasores usam esse tipo de ataque quando obtêm alguma informação sobre a senha. Este é um ataque mais poderoso do que os ataques de dicionário e de força bruta porque o cracker conhece o tipo de senha.
+
+###### Adivinhação de senha
+
+A adivinhação de senha é uma técnica de quebra de senha que envolve tentar fazer logon no sistema de destino com senhas diferentes manualmente. O invasor cria uma lista de todas as senhas possíveis a partir das informações coletadas por meio de engenharia social ou qualquer outro método e as experimenta manualmente no dispositivo da vítima para quebrar as senhas.
+
+Hackers também podem automatizar a quebra de senha usando um loop FOR simples ou criando arquivo de script que testa cada senha em uma lista. Essas técnicas ainda são consideradas cracking manual. A
+taxa de falha deste tipo de ataque é alta.
+
+###### Senhas padrão (default)
+
+As senhas padrão são aquelas fornecidas pelos fabricantes junto aos novos equipamentos (por exemplo, interruptores, hubs, roteadores). Normalmente, as senhas padrão fornecidas pelos fabricantes permitem que o usuário acesse o dispositivo durante a configuração inicial e, em seguida, deve-se alterar a senha.
+
+Os invasores podem explorar esse lapso de não alteração de senhas default ao encontrar a senha padrão do dispositivo de destino em sites do fabricante ou usando ferramentas online que mostram senhas padrão.
+
+A seguir estão algumas das ferramentas online para pesquisa de senhas padrão:
+
+- https://open-sez.me
+- https://www.fortypoundhead.com
+- https://cirt.net
+- http://www.defaultpassword.us
+- https://www.routerpasswords.com
+- https://default-password.info
+
+###### Trojans/Spyware/Keyloggers
+
+O invasor instala um Trojan/Spyware/Keylogger na máquina da vítima para coletar os nomes de usuário e senha da vítima. É executado em segundo plano e envia de volta todas as credenciais do usuário para o atacante.
+
+1. Atacante infecta o PC da vitima com um Trojans/Spyware/Keyloggers
+2. A vítima loga em um servidor com suas credenciais
+3. O Trojans/Spyware/Keyloggers envia as credenciais de login ao atacante
+4. O atacante utiliza as credenciais para obter acesso ao servidor
+
+###### Ataque ao Pass the Ticket
+
+Pass-the-ticket é uma técnica usada para autenticar um usuário em um sistema que usa tickets Kerberos
+sem fornecer a senha do usuário. A autenticação Kerberos permite que os usuários acessem serviços fornecidos por servidores remotos sem a necessidade de fornecer senhas para cada serviço solicitado.
+
+Os invasores usam ferramentas como Mimikatz, Rubeus, Windows Credentials Editor, etc. para lançar ataques.
+
+###### Wire Sniffing
+
+Se um invasor executar um sniffer em um sistema da LAN, ele poderá coletar dados enviados de qualquer outro sistema na LAN. A maioria das ferramentas sniffer é ideal para farejar dados em um ambiente  central.
+
+###### Man-in-the-middle e Replay Attacks
+
+Quando duas partes estão se comunicando, um ataque man-in-the-middle (MITM) pode ocorrer, no
+qual um terceiro (atacante) intercepta uma comunicação entre as duas partes sem que haja conhecimento. Este tipo de ataque é frequentemente usado em telnet e tecnologias wireless.
+
+Em um ataque de repetição, os pacotes e tokens de autenticação são capturados usando um sniffer. Depois que as informações relevantes são extraídas, os tokens são colocados de volta na rede para obter acesso. O invasor usa esse tipo de ataque para reproduzir transações bancárias ou tipos semelhantes de dados de transferência, na esperança de replicar e/ou alterar as atividades.
+
+### Ferramentas para quebrar senhas
+
+[L0phtCrack](https://www.l0phtcrack.com) -> é uma ferramenta projetada para auditar senhas e recuperar aplicativos. Ela recupera
+senhas perdidas do Microsoft Windows com a ajuda de um dicionário, tabela de arco-íris híbrida e ataques de força bruta.
+
+[ophcrack](https://ophcrack.sourceforge.io) -> é uma ferramenta de quebra de senha do Windows que usa tabelas de arco-íris para quebrar senhas. Ele vem com uma interface gráfica do usuário (GUI) e roda em diferentes sistemas operacionais, como Windows e Linux/UNIX.
+
+[RainbowCrack](http://project-rainbowcrack.com) -> quebra hashes com tabelas de arco-íris. Ele usa um algoritmo de troca de memória de tempo para quebrar hashes.
+
+Algumas outras ferramentas de quebra de senha são listadas a seguir:
+
+- John the Ripper (https://www.openwall.com)
+- hashcat (https://hashcat.net)
+- THC-Hydra (https://github.com)
+- Medusa (http://foofus.net)
+
+### Contramedidas de quebra de senha
+
+- Não use a mesma senha durante a alteração de senha.
+- Não compartilhe senhas.
+- Não use senhas que podem ser encontradas em um dicionário.
+- Não use protocolos de texto não criptografado ou protocolos com criptografia fraca.
+- Defina a política de alteração de senha para 30 dias.
+- Evite armazenar senhas em um local inseguro.
+- Não use senhas padrão de nenhum sistema.
+- Torne as senhas difíceis de adivinhar usando de 8 a 12 caracteres alfanuméricos, com combinação de letras maiúsculas e minúsculas, números e símbolos.
+- Nunca use informações pessoais (por exemplo, data de nascimento ou nome do cônjuge, filho ou animal de estimação) para criar senhas.
+- Bloqueie as contas que foram submetidas a muitas tentativas incorretas de senha. Isso fornece proteção contra força bruta e ataques de adivinhação.
+- Use autenticação de dois fatores ou multifatores
