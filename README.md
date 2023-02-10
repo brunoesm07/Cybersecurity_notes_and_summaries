@@ -1,4 +1,4 @@
-# Estudos em Cybersecurity (iniciante)
+# Estudos em Cybersecurity
 
 Este repositório foi criado com o objetivo de compartilhar e manter uma fonte de conhecimento para interessados na área de cyber segurança e suas certificações, a partir dos meus estudos na área. O mesmo será constantemente abastecido com resumos e anotações de cursos, livros ou outras fontes de estudos conforme forem sendo utilizados.
 
