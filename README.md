@@ -77,7 +77,7 @@ Este repositório foi criado com o objetivo de compartilhar e manter uma fonte d
 * [Anotações](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Cursos/Cursos_Security_Blue%20Team/Introduction%20to%20Network%20Analysis.md) do curso Introduction to Network Analysis
 
 #### [AttackIQ Academy](https://www.academy.attackiq.com/)
-* [Anotações]() do curso Foundations of Operationalizing MITRE ATT&CK
+* [Anotações](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Cursos/Cursos%20AttackIQ/Foundations%20of%20Operationalizing%20MITRE%20ATT%26CK.md) do curso Foundations of Operationalizing MITRE ATT&CK
 
 #### [CompTIA Security+ (SY0-601) Complete Course & Exam](https://www.udemy.com/course/securityplus/)
 
