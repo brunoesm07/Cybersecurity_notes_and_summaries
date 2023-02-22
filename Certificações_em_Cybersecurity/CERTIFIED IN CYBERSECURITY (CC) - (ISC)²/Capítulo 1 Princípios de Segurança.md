@@ -4,7 +4,7 @@
 Tags: #certificação #cybersecurity #ISC²
 
 
-Todos os dados precisam de alguma forma de segurança; mesmo os dados que não são confidenciais (como dados destinados à exibição pública) precisam de proteção para garantir a disponibilidade.
+Todos os dados precisam de alguma forma de segurança, mesmo os dados que não são confidenciais (como dados destinados à exibição pública) precisam de proteção para garantir a disponibilidade.
 
 
 
@@ -67,11 +67,11 @@ Existem dois tipos de autenticação. O uso de apenas um dos métodos é conheci
 
 Garante que uma ação é permitida. Geralmente assume a forma de listas de controle de acesso que detalham as permissões especificas que são concedidas a um usuário individual ou grupo de usuários.
 
-## Risco
+## Riscos
 
 Riscos são a combinação de uma ameaça e uma vulnerabilidade. Ocorrem quando um ambiente contém uma vulnerabilidade e uma ameaça correspondente que pode explorar essa vulnerabilidade.
 
-#### Gerenciamento de Risco
+### Gerenciamento de Risco
 
 - Um **ativo** é algo que precisa de proteção.
 
@@ -85,11 +85,11 @@ Exemplos de vulnerabilidades: ausência de patches, regras frágeis de firewall,
 
 -   **Probabilidade de ocorrência** é um fator ponderado com base em uma análise subjetiva da probabilidade de uma determinada ameaça ser capaz de explorar uma determinada vulnerabilidade ou conjunto de vulnerabilidades.
 
-#### Avaliação de risco (Risk Assessment)
+### Avaliação de risco (Risk Assessment)
 
 A avaliação de riscos  é definida como o processo de identificação, estimativa e priorização de riscos para as operações de uma organização (incluindo sua missão, funções, imagem e reputação), ativos, indivíduos, outras organizações e até mesmo a nação.
 
-#### Tratamento de risco (Risk Treatment)
+### Tratamento de risco (Risk Treatment)
 
 Analisa e implementa possíveis respostas para controlar o risco.
 
@@ -101,13 +101,14 @@ Risk Acceptance - Aceitação de risco é não tomar nenhuma ação para reduzir
 	
 Risk Mitigation - A mitigação de riscos é o tipo mais comum de gerenciamento de riscos e inclui a tomada de ações para prevenir ou reduzir a possibilidade de um evento de risco ou seu impacto. 
 
-#### Risk Priorities
+### Prioridades de risco (Risk Priorities)
 
 Quando os riscos forem identificados, é hora de priorizar e analisar os principais riscos por meio da análise de risco qualitativa e/ou análise de risco quantitativa. 
-	- Um método eficaz para priorizar o risco é usar uma matriz de risco, que ajuda a identificar a prioridade como a interseção da probabilidade de ocorrência e impacto.
-	- Ao tomar decisões com base nas prioridades de risco, as organizações devem avaliar a probabilidade e o impacto do risco, bem como sua tolerância a diferentes tipos de risco. 
 
-#### Tolerância ao risco (Risk Tolerance)
+- Um método eficaz para priorizar o risco é usar uma matriz de risco, que ajuda a identificar a prioridade como a interseção da probabilidade de ocorrência e impacto.
+- Ao tomar decisões com base nas prioridades de risco, as organizações devem avaliar a probabilidade e o impacto do risco, bem como sua tolerância a diferentes tipos de risco. 
+
+### Tolerância ao risco (Risk Tolerance)
 
 O nível de tolerância ao risco varia entre as organizações e até internamente: departamentos diferentes podem ter atitudes diferentes em relação ao risco aceitável ou inaceitável.
 
@@ -125,8 +126,9 @@ Muitos tipos de mecanismos de controle de acesso físico podem ser implantados e
 
 #### Controles técnicos
 
-Controles técnicos(também chamados de controles lógicos) são controles de segurança que sistemas de computador e redes implementam diretamente.
-	- Os controles técnicos podem ser definições de configuração ou parâmetros armazenados como dados, gerenciados por meio de uma interface gráfica do usuário (GUI) de software, ou podem ser configurações de hardware feitas com interruptores, plugues de jumper ou outros meios. 
+Controles técnicos (também chamados de controles lógicos) são controles de segurança que sistemas de computador e redes implementam diretamente.
+
+Os controles técnicos podem ser definições de configuração ou parâmetros armazenados como dados, gerenciados por meio de uma interface gráfica do usuário (GUI) de software, ou podem ser configurações de hardware feitas com interruptores, plugues de jumper ou outros meios. 
 
 #### Controles administrativos (administrative controls)
 
@@ -136,20 +138,21 @@ Os controles administrativos (também conhecidos como controles gerenciais) são
 
 ## Governança
 
-#### Regulamentos e leis
+### Regulamentos e leis
 
 Os regulamentos e leis (regulations and laws) são comumente emitidos na forma de leis, geralmente do governo (não confundir com governança) e geralmente acarretam penalidades financeiras por descumprimento.
 	- Ex: Regulamento Geral de Proteção de Dados (GDPR); 
 
-#### Políticas
+### Políticas
+
 As políticas (policies) são implementadas pela governança organizacional, como a gestão executiva, para fornecer orientação em todas as atividades para garantir que a organização suporte os padrões e regulamentos do setor.
 
-#### Padrões
+### Padrões
 
 Os padrões (standards) são frequentemente usados ​​pelas equipes de governança para fornecer uma estrutura para introduzir políticas e procedimentos em apoio aos regulamentos.
 	- Ex1: Organização Internacional de Padronização (ISO);
 	- Ex2: Internet Engineering Task Force (IETF) , existem padrões em protocolos de comunicação que garantem que todos os computadores possam se conectar entre si através das fronteiras
 
-#### Procedimentos
+### Procedimentos
 
 Os procedimentos (procedures) são as etapas detalhadas para concluir uma tarefa que oferece suporte às políticas departamentais ou organizacionais. Os procedimentos definem as atividades explícitas e repetíveis necessárias para realizar uma tarefa específica ou um conjunto de tarefas. 
