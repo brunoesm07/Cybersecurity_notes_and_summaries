@@ -1,4 +1,4 @@
-- [x] 1. [Quais são os três pilares da segurança da informação? Qual a importância de cada um? Seja detalhista.](#Quais-são-os-três-pilares-da-segurança-da-informação?-Qual-a-importância-de-cada-um?-Seja-detalhista.)
+- [x] 1. [Quais são os três pilares da segurança da informação? Qual a importância de cada um? Seja detalhista.]([#Quais-são-os-três-pilares-da-segurança-da-informação?-Qual-a-importância-de-cada-um?-Seja-detalhista.](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Question%C3%A1rios/Question%C3%A1rio%20de%20Cybersecurity.md#quais-s%C3%A3o-os-tr%C3%AAs-pilares-da-seguran%C3%A7a-da-informa%C3%A7%C3%A3o-qual-a-import%C3%A2ncia-de-cada-um-seja-detalhista))
 - [x] 2. [[#O que é não repúdio? Qual sua importância para segurança da informação?]] 
 - [x] 3. [[#O que é MFA? Qual sua utilidade para segurança da informação?]]
 - [ ] 4. [[#O que é um ataque DDoS? Cite um exemplo real.]]
