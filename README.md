@@ -98,3 +98,7 @@ Este repositório foi criado com o objetivo de compartilhar e manter uma fonte d
 
 #### Network Fundamentals
 - [Anotações](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Security%20Analyst%20(treinamentos)/Network%20Fundamentals.md) do treinamento Fundamentos de Rede
+
+## Questionário
+
+- Questionário de Cybersecurity (Preparatório entrevista de emprego)
