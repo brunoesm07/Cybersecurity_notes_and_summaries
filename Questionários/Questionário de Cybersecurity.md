@@ -33,7 +33,7 @@
 - [ ] 33.
 - [ ] 34.
 - [ ] 35.
-- [ ] 36. [[#O que é um WAF? Qual sua principal função?]]
+- [x] 36. [[#O que é um WAF? Qual sua principal função?]]
 - [ ] 
 
 # Perguntas
@@ -128,7 +128,7 @@ O WAF funciona como um _proxy_ reverso que protege o servidor contra exposiç�
 
 Os WAFs protegem as aplicações voltadas para a Internet contra ataques como resultado da inteligência integrada contra ameaças que agrega várias fontes e regras de detecção do Open Web Application Security Project (OWASP)
 
-![[Pasted image 20230302182240.png]]
+![[WAF.png]]
 (Fonte: CloudFlare)
 
 Um WAF pode operar com uma lista de bloqueio protegendo contra ataques conhecidos. Chamamos essa forma de Modelo de Segurança Negativo. Em contrapartida há o Modelo de Segurança Positivo que opera com uma lista de permissões.
