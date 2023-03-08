@@ -103,6 +103,8 @@ Autenticação Multifator. Garantir a autenticação de uma tentativa de acesso 
 - SOX  
 - ISO 27001
 
+ISO 27001 define objetivos do controle de gerenciamento de segurança da informação, em doze domínios. Utiliza-se os objetivos de controle do padrão ISO 27001 para definir e publicar as políticas de segurança da empresa.
+
 ### Quais são as fases do ciclo de resposta a incidentes de acordo com o NIST 800-61 REV 2?
 
 ### Descreva o que é o CIS Controls v8.
@@ -195,17 +197,44 @@ Onde buscar treinamento?
 
 
 38. **Explique para que serve e como funciona uma DMZ.**
+
+
 39. **O que é um purple team?**
+
+
 40. **Qual importância da conscientização de riscos cibernéticos para estratégia de segurança de uma organização?**
+
+Investir muito dinheiro em tecnologia não fará diferença se as pessoas dentro da empresa forem o elo mais fraco da segurança cibernética.
+
+A conscientização de segurança deve ser um processo contínuo, já que novas ameaças e técnicas estão sempre surgindo.
+
 41. **O que é DevSecOps? Qual sua importância para estratégia de segurança e negócio de uma organização?**
+
+
 42. **O que é o Common Vulnerability Scoring System (CVSS)? Qual sua função?**
+
+
 43. **O que são indicadores de comprometimento (IoC)? Cite exemplos reais**
+
+
 44. **O que é STRIDE? Qual sua utilidade?**
+
+
 45. **O que é CVE?**
+
+
 46. **O que é Zero Trust?**
+
+
 47. **O que é NVD e CNNVD?**
+
+
 48. **O que é Service Level Agreement (SLA)?**
+
+
 49. **O que são TTPs?**
+
+
 50. **O que é DLP e para que serve?**
 
 
