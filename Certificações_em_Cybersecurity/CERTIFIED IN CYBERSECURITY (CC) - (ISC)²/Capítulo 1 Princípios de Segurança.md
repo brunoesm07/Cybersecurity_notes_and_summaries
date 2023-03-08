@@ -65,7 +65,13 @@ Existem dois tipos de autenticação. O uso de apenas um dos métodos é conheci
 
 ### Autorização
 
-Garante que uma ação é permitida. Geralmente assume a forma de listas de controle de acesso que detalham as permissões especificas que são concedidas a um usuário individual ou grupo de usuários.
+Garante que uma ação é permitida. Serviços de autorização determinam quais recursos os usuários podem acessar, juntamente com as operações que os usuários podem executar.
+
+Geralmente assume a forma de listas de controle de acesso que detalham as permissões especificas que são concedidas a um usuário individual ou grupo de usuários.
+
+### Accouting
+
+Mantém controle sobre o que os usuários fazem, incluindo o que acessam, a quantidade de tempo que acessam os recursos e as alterações feitas.
 
 ## Riscos
 

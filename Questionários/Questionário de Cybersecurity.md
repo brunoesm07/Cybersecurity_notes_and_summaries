@@ -72,6 +72,8 @@ Incapacidade de alguém negar a realização de uma ação verdadeira, confirmad
 
 Autenticação Multifator. Garantir a autenticação de uma tentativa de acesso utilizando-se mais de um fator em conjunto, que pode ser algo que o usuário conheça (ex: senha), algo que o usuário tenha (ex: token) ou algo que o usuário seja (ex: biometria). Porém, dois métodos iguais não garantem a MFA.
 
+![[autenticação.png]]
+
 ### O que é um ataque DDoS? Cite um exemplo real.
 
 
