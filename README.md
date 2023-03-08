@@ -101,4 +101,4 @@ Este repositório foi criado com o objetivo de compartilhar e manter uma fonte d
 
 ## Questionário
 
-- [Questionário de Cybersecurity](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/5ccbb420cbf0fef7daf42c0fdeb869b9fb8aa55b/Question%C3%A1rios/Question%C3%A1rio%20de%20Cybersecurity.md) (Preparatório entrevista de emprego)
+- [Questionário de Cybersecurity](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Question%C3%A1rios/Question%C3%A1rio%20de%20Cybersecurity.md) (Preparatório entrevista de emprego)
