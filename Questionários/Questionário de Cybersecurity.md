@@ -34,7 +34,22 @@
 - [ ] 34.
 - [ ] 35.
 - [x] 36. [[#O que é um WAF? Qual sua principal função?]]
-- [ ] 
+- [x] 37. [[#O que é um SIEM? Qual sua principal função?]]
+- [ ] 38.
+- [ ] 39.
+- [ ] 40.
+- [ ] 41.
+- [ ] 42.
+- [ ] 43.
+- [ ] 44.
+- [ ] 45.
+- [ ] 46.
+- [ ] 47.
+- [ ] 48.
+- [ ] 49.
+- [ ] 50.
+- [ ] 51.
+- [ ] 52.
 
 # Perguntas
 
@@ -138,12 +153,43 @@ Existem 3 tipos de WAF:
 - WAFs de host -> Baseado em hospedagem que pode ser integrado ao software e traz como vantagem uma maior possibilidade de personalização com um custo baixo.
 - WAFs na nuvem -> Os WAFs hospedados na nuvem geralmente são administrados pelos provedores do serviço.
 
+### O que é um SIEM? Qual sua principal função?
 
-37. **O que é um SIEM? Qual sua principal função?**
+O Gerenciamento e Correlação de Eventos de Segurança - SIEM ( em inglês Security Information and Event Management) é a junção do gerenciamento de informações de segurança (SIM) com gerenciamento de eventos de segurança (SEM), formando em um software, um centro de gerenciamento de inteligência de ameaças, no qual coleta informações de várias fontes e em seguida identifica as anomalias de segurança usando protocolos baseados em regras para detectar e responder a atividades suspeitas.
 
+Sua principal função é oferecer às organizações a visibilidade das atividades nas redes próprias de forma centralizada, para que possam responder rapidamente a possíveis ataques cibernéticos e atender aos requisitos de conformidade.
 
+![[SIEM.png]]
+![[SIEM2.png]]
 
+Abaixo listo 5 dos principais SIEMs disponíveis no mercado:
 
+1.  [Splunk](https://www.splunk.com/)
+2.  IBM QRadar
+3.  [Microsoft Sentinel](https://azure.microsoft.com/pt-br/products/microsoft-sentinel/?culture=pt-br&country=BR#overview)
+4.  WAZUH
+5.  Elastic Security
+
+Onde buscar treinamento?
+
+✅ Splunk 
+
+- What is Splunk?: https://lnkd.in/g5RhvQJa
+- Intro to Splunk: https://lnkd.in/gUBWviaa
+
+>Há vários treinamentos na plataforma Splunk Education.
+
+✅ QRadar
+
+- **QRadar Learn Hub** - https://www.ibm.com/qradar/learn
+
+✅ Microsoft Sentinel
+
+- **Microsoft Learn: Introdução ao Microsoft Sentinel** - https://learn.microsoft.com/pt-br/training/modules/intro-to-azure-sentinel/
+
+✅ WAZUH
+
+- **Documentação** - https://documentation.wazuh.com/current/index.html
 
 
 38. **Explique para que serve e como funciona uma DMZ.**
