@@ -12,6 +12,11 @@ Todos os dados precisam de alguma forma de segurança, mesmo os dados que não s
 
 **Confidentiality** (confidencialidade) - A característica dos dados ou informações quando não são disponibilizados ou divulgados a pessoas ou processos não autorizados. Exemplos de quebra de confidencialidade: escalonamento de privilégios e quebra de senhas.
 
+Métodos que ajudam a garantir a confidencialidade:
+
+- autenticação
+- criptografia
+
 - Snooping: envolve a coleta de informações que são deixadas em aberto. => Proteção: política de mesa limpa
 - Eavesdropping: escutas, intervenção não autorizada e invisível de uma conversa privada ao vivo.=> Proteção: criptografar as informações enviadas pela rede.
 - Engenharia Social
@@ -23,6 +28,12 @@ Todos os dados precisam de alguma forma de segurança, mesmo os dados que não s
 - Man-in-the-middle: intercepta o tráfego de rede, ficando no meio da comunicação e monitorando tudo o que está acontecendo. => Proteção: uso de criptografia
 
 **Availability** (disponibilidade) - Garantir acesso oportuno e confiável e uso de informações por usuários autorizados. Um exemplo de quebra de disponibilidade é o ataque DoS (Negação de Serviço).
+
+Métodos que ajudam a garantir a disponibilidade do sistema:
+
+- backups de sistema
+- manutenção de equipamentos
+- atualização de sistemas operacionais
 
 - Denial of Service (DoS): bombardeamento em um sistema com uma quantidade esmagadora de tráfego.  => Proteção: uso de firewalls que bloqueiam pedidos ilegitimos
 - Queda de energia

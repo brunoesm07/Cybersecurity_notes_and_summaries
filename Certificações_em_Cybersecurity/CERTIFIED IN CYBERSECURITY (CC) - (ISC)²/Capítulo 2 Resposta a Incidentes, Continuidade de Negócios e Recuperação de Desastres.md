@@ -7,29 +7,37 @@ Tags: #certificação #cybersecurity #ISC² #incidente
 ## Terminologias de Incidentes
 
 **Violação** (Breach)
+
 A perda de controle de sistemas, comprometimento, divulgação não autorizada, aquisição não autorizada ou qualquer ocorrência semelhante em que: uma pessoa que não seja um usuário autorizado acessa ou potencialmente acessa informações de identificação pessoal; ou um usuário autorizado acessa informações de identificação pessoal para outros fins que não os autorizados.
 
 **Evento**
+
 Qualquer ocorrência observável em uma rede ou sistema.
 	- **Eventos Adversos**: Eventos com consequências negativas, como travamentos do sistema, inundações de pacotes de rede, uso não autorizado de privilégios do sistema, desfiguração de uma página da Web ou execução de código malicioso que destrói dados.
 
 **Incidente**
+
 Um evento que põe em risco real ou potencialmente a confidencialidade, integridade ou disponibilidade de um sistema de informação ou a informação que o sistema processa, armazena ou transmite.
 
 **Tartamento de Incidente**
+
 A mitigação de violações de políticas de segurança e práticas recomendadas.
 
 **Intrusão** (Intrusion)
+
 Um evento que põe em risco real ou potencialmente a confidencialidade, integridade ou disponibilidade de um sistema de informação ou a informação que o sistema processa, armazena ou transmite.
 
 **Ameaça** (Threat)
+
 Qualquer circunstância ou evento com potencial para impactar adversamente as operações organizacionais (incluindo missão, funções, imagem ou reputação), ativos organizacionais, indivíduos, outras organizações ou a nação por meio de um sistema de informação por meio de acesso não autorizado, destruição, divulgação, modificação de informações e/ ou negação de serviço.
 
 **Zero Day**
+
 Uma vulnerabilidade do sistema anteriormente desconhecida com potencial de exploração sem risco de detecção ou prevenção porque, em geral, não se encaixa em padrões, assinaturas ou métodos reconhecidos.
 
 **Exploit**
-Um ataque específico. É chamado assim porque esses ataques exploram vulnerabilidades do sistema.
+
+Uma ferramenta criada para aproveitar uma vulnerabilidade específica.. É chamado assim porque esses ataques exploram vulnerabilidades do sistema e, embora um ataque de exploit possa conter malware, o exploit em si não é maligno.
 
 
 

@@ -1,25 +1,25 @@
 - [x] 1. [Quais são os três pilares da segurança da informação? Qual a importância de cada um? Seja detalhista.]([#Quais-são-os-três-pilares-da-segurança-da-informação)
 - [x] 2. [[#O que é não repúdio? Qual sua importância para segurança da informação?]] 
 - [x] 3. [[#O que é MFA? Qual sua utilidade para segurança da informação?]]
-- [ ] 4. [[#O que é um ataque DDoS? Cite um exemplo real.]]
+- [x] 4. [[#O que é um ataque DDoS? Cite um exemplo real.]]
 - [ ] 5. [[#O que é uma vulnerabilidade zero-day? Qual seu impacto na segurança da informação?]]
-- [ ] 6. [[#Aponte a principal característica ou a diferença de:]]
-- [ ] 7. [[#O que é engenharia social? Cite 03 técnicas de engenharia social.]]
-- [ ] 8. [[#Qual a diferença entre um spam, um phishing e um spear phishing?]]
+- [x] 6. [[#Aponte a principal característica ou a diferença de:]]
+- [x] 7. [[#O que é engenharia social? Cite 03 técnicas de engenharia social.]]
+- [x] 8. [[#Qual a diferença entre um spam, um phishing e um spear phishing?]]
 - [ ] 9. [[#Descreva como um atacante poderia levantar informações para lançar um spear phishing em uma grande empresa listada na bolsa de valores.]]
 - [ ] 10. [[#Explique brevemente as seguintes normas:]]
 - [ ] 11. [[#Quais são as fases do ciclo de resposta a incidentes de acordo com o NIST 800-61 REV 2?]]
 - [ ] 12. [[#Descreva o que é o CIS Controls v8.]]
 - [ ] 13.  [[#Explique o que é o NIST CSF.]]
 - [ ] 14. [[#Explique o que é o PMBOK e cite quais são os macroprocessos de gerenciamento de projetos.]]
-- [ ] 15. [[#Explique o que é um ativo, uma vulnerabilidade e uma ameaça. Relacione os três em um exemplo.]]
+- [x] 15. [[#Explique o que é um ativo, uma vulnerabilidade e uma ameaça. Relacione os três em um exemplo.]]
 - [ ] 16. [[#Explique o que é um APT e cite um exemplo real.]]
 - [ ] 17. [[#Quais são os fatores de autenticação? Cite exemplos reais de sua utilização.]]
-- [ ] 18. 
-- [ ] 19.
-- [ ] 20
-- [ ] 21.
-- [ ] 22.
+- [ ] 18. [[#Aponte as diferenças entre os protocolos TCP e UDP. Depois aponte 02 casos de uso para cada um dos protocolos.]]
+- [ ] 19. [[#Cite um exemplo de um ator de ameaça sofisticado e um simples. Explique a natureza da sofisticação.]]
+- [ ] 20.  [[#O que é o OWASP TOP 10? Cite pelo menos 02 itens presentes no OWASP TOP 10.]]
+- [ ] 21. [[#O que é um SGSI? Aponte qual norma exige sua elaboração.]]
+- [ ] 22. [[#O que são NIST e SANS? Qual relevância para comunidade de segurança da informação? Cite pelo menos um exemplo de trabalho de cada um.]]
 - [ ] 23.
 - [ ] 24.
 - [ ] 25.
@@ -35,7 +35,7 @@
 - [ ] 35.
 - [x] 36. [[#O que é um WAF? Qual sua principal função?]]
 - [x] 37. [[#O que é um SIEM? Qual sua principal função?]]
-- [ ] 38.
+- [ ] 38. [[#Explique para que serve e como funciona uma DMZ.]]
 - [ ] 39.
 - [ ] 40.
 - [ ] 41.
@@ -76,7 +76,9 @@ Autenticação Multifator. Garantir a autenticação de uma tentativa de acesso 
 
 ### O que é um ataque DDoS? Cite um exemplo real.
 
+O ataque de negação de serviço distribuído (DDoS) é executado a partir de diversas fontes coordenadas que resulta em algum tipo de interrupção de serviço aos usuários, dispositivos ou aplicações.
 
+Um exemplo real foi o ataque sofrido pela AWS em fevereiro de 2020 onde em seu ápice, o ataque disparou um tráfego de entrada a uma taxa de 2,3 terabits por segundo (Tbps). A AWS não divulgou a qual cliente o ataque foi direcionado.
 
 ### O que é uma vulnerabilidade zero-day? Qual seu impacto na segurança da informação?
 
@@ -84,16 +86,27 @@ Autenticação Multifator. Garantir a autenticação de uma tentativa de acesso 
 
 ### Aponte a principal característica ou a diferença de:  
   
-- Malware  
-- Ransomware  
-- Vírus  
-- Worm  
-- Spyware  
-- Key logger
+- **Malware**  - termo usado para descrever o software desenvolvido para interromper as operações do computador ou obter acesso a sistemas informatizados, sem o conhecimento ou permissão do usuário.
+- **Ransomware**  - aprisiona um sistema de computador ou os dados nele encontrados até que a vítima faça um pagamento. Funciona criptografando os dados no computador com uma chave desconhecida ao usuário.
+- **Vírus**  - é um código malicioso executável que está anexado a outro arquivo executável, como um programa legítimo. A maioria dos vírus necessitam de inicialização do usuário final.
+- **Worm**  - semelhantes ao vírus, podem ser executados de modo autônomo. Exceto pela infecção inicial, os worms não necessitam mais da participação do usuário.
+- **Spyware** - é o software que permite que um criminoso obtenha informações sobre as atividades do computador do usuário.
+- **Key logger** - registro de pressionamento de teclas em um teclado, geralmente sem a permissão ou o conhecimento do usuário.
 
 ### O que é engenharia social? Cite 03 técnicas de engenharia social.
 
+Engenharia social é um meio totalmente não técnico de um criminoso coletar informações sobre a vítima. Engenharia social é um ataque que tenta manipular indivíduos para realizar ações ou divulgar informações confidenciais.
+
+**Pretexting** - Ocorre quando um invasor chama uma pessoa e mente para ela na tentativa de obter acesso a dados confidenciais. Um exemplo envolve um invasor que finge precisar de dados pessoais ou financeiros para confirmar a identidade do destinatário.
+
+**Something for Something (Quid pro quo)** - Ocorre quando um invasor solicita informações pessoais de uma pessoa em troca de algo, como um presente.
+
+**Baiting** - Se utiliza da curiosidade humana ao deixar algum dispositivo externo infectado em uma mesa ou até mesmo distribuí-lo gratuitamente, o criminoso espera que os curiosos de plantão abram o dispositivo e executem arquivos, podendo infectar máquinas e possivelmente a rede corporativa.
+
+
 ### Qual a diferença entre um spam, um phishing e um spear phishing?
+
+Spam é um email indesejado, não solicitado, mas sem carga maliciosa, enquanto que um phishing ocorre quando uma parte mal-intencionada envia um e-mail fraudulento disfarçado de uma fonte legítima e confiável. Já o Spear phishing é um ataque de phishing altamente direcionado, personalizado para uma pessoa específica.
 
 ### Descreva como um atacante poderia levantar informações para lançar um spear phishing em uma grande empresa listada na bolsa de valores.
 
@@ -115,15 +128,31 @@ ISO 27001 define objetivos do controle de gerenciamento de segurança da informa
 
 ### Explique o que é um ativo, uma vulnerabilidade e uma ameaça. Relacione os três em um exemplo.
 
+Vulnerabilidade é uma fraqueza que torna um alvo suscetível ao ataque, ameaça é qualquer circunstância ou evento com potencial para impactar de maneira prejudicial e, ativo é algo de valor que necessita de proteção. 
+
+Exemplos:
+
+1. Um sistema operacional desatualizado (vulnerabilidade) instalado em um computador da empresa contendo dados sigilosos (ativo) que pode ser explorado em um ataque (ameaça) exploit.
+
+2. Acesso em rede pública (vulnerabilidade) com telefone celular, sem medidas de proteção podendo ser interceptado por um man-in-the-mobile (ameaça) e ter dados (ativo) vazados.
+
 ### Explique o que é um APT e cite um exemplo real.
 
 ### Quais são os fatores de autenticação? Cite exemplos reais de sua utilização.
 
-18. **Aponte as diferenças entre os protocolos TCP e UDP.  Depois aponte 02 casos de uso para cada um dos protocolos.
-19. **Cite um exemplo de um ator de ameaça sofisticado e um simples. Explique a natureza da sofisticação.**
-20. **O que é o OWASP TOP 10? Cite pelo menos 02 itens presentes no OWASP TOP 10.**
-21. **O que é um SGSI? Aponte qual norma exige sua elaboração.**
-22. **O que são NIST e SANS? Qual relevância para comunidade de segurança da informação? Cite pelo menos um exemplo de trabalho de cada um.**
+### Aponte as diferenças entre os protocolos TCP e UDP.  Depois aponte 02 casos de uso para cada um dos protocolos.
+
+
+### Cite um exemplo de um ator de ameaça sofisticado e um simples. Explique a natureza da sofisticação.
+
+
+### O que é o OWASP TOP 10? Cite pelo menos 02 itens presentes no OWASP TOP 10.
+
+
+### O que é um SGSI? Aponte qual norma exige sua elaboração.
+
+### O que são NIST e SANS? Qual relevância para comunidade de segurança da informação? Cite pelo menos um exemplo de trabalho de cada um.
+
 23. **O que é um SOC? E um CSIRT?**
 24. **O que é um plano de resposta a incidentes? Descreva sua importância para uma organização bem como seus principais elementos.**
 25. **Explique a necessidade e utilidade do protocolo NAT. Demonstre com um exemplo.**
@@ -196,8 +225,9 @@ Onde buscar treinamento?
 - **Documentação** - https://documentation.wazuh.com/current/index.html
 
 
-38. **Explique para que serve e como funciona uma DMZ.**
-
+### Explique para que serve e como funciona uma DMZ.
+ 
+Zona desmilitarizada ou DMZ é uma área intermediária entre a rede interna (confiável) e externa (não confiável). Sua função é manter os serviços que possuem acesso externo separados da rede local.
 
 39. **O que é um purple team?**
 
@@ -243,3 +273,5 @@ A conscientização de segurança deve ser um processo contínuo, já que novas 
 CI/CD significa Integração Contínua/Entrega Contínua. É uma prática de desenvolvimento de software que visa automatizar e acelerar o processo de entrega de software. Ele enfatiza a criação de um pipeline de entrega automatizado, que permite que o código seja testado, construído e implantado rapidamente e com confiança.
 
 52. **O que é SAST?**
+
+
