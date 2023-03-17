@@ -81,6 +81,9 @@ Este repositório foi criado com o objetivo de compartilhar e manter uma fonte d
 
 #### [CompTIA Security+ (SY0-601) Complete Course & Exam](https://www.udemy.com/course/securityplus/)
 
+#### CISCO
+- [Anotações]() do curso Cybersecurity Essentials
+
 #### UNIVESP
 ###### [Curso Segurança da Informação](https://youtube.com/playlist?list=PLxI8Can9yAHenoHipBXp9XuJY4BBxBUPQ)
 - [Anotações](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Cursos/Cursos%20UNIVESP%20(Youtube)%20Eng.%20de%20Computa%C3%A7%C3%A3o/Seguran%C3%A7a%20da%20Informa%C3%A7%C3%A3o.md) Curso Segurança da Informação - Engenharia da Computação
