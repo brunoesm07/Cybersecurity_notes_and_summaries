@@ -249,8 +249,8 @@ O Gerenciamento e Correlação de Eventos de Segurança - SIEM ( em inglês Secu
 
 Sua principal função é oferecer às organizações a visibilidade das atividades nas redes próprias de forma centralizada, para que possam responder rapidamente a possíveis ataques cibernéticos e atender aos requisitos de conformidade.
 
-![[SIEM.png]]
-![[SIEM2.png]]
+![](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/88325b2ce4c324368f4c759b06bf8f3b29bdd5ca/assets/SIEM.png)
+![](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/88325b2ce4c324368f4c759b06bf8f3b29bdd5ca/assets/SIEM2.png)
 
 Abaixo listo 5 dos principais SIEMs disponíveis no mercado:
 
