@@ -141,7 +141,7 @@ Além disso, as empresas devem restringir o acesso aos dados do titular do cart�
 
 A conformidade com o PCI  é dividida em quatro níveis, com base no número anual de transações de cartão de crédito ou débito que uma empresa processa. O nível de classificação determina o que uma empresa precisa fazer para permanecer em conformidade.
 
-![[PCI DSS.png]]
+![](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/65f8e23a12a43c0f558b9403dd86df6c9afc7b23/assets/PCI%20DSS.png)
 
 **Sarbanes-Oxley Act (SOX)**
 
