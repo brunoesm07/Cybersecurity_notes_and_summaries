@@ -8,7 +8,7 @@
 - [x] 8. [[#Qual a diferença entre um spam, um phishing e um spear phishing?]]
 - [ ] 9. [[#Descreva como um atacante poderia levantar informações para lançar um spear phishing em uma grande empresa listada na bolsa de valores.]]
 - [ ] 10. [[#Explique brevemente as seguintes normas:]]
-- [ ] 11. [[#Quais são as fases do ciclo de resposta a incidentes de acordo com o NIST 800-61 REV 2?]]
+- [x] 11. [[#Quais são as fases do ciclo de resposta a incidentes de acordo com o NIST 800-61 REV 2?]]
 - [ ] 12. [[#Descreva o que é o CIS Controls v8.]]
 - [ ] 13.  [[#Explique o que é o NIST CSF.]]
 - [ ] 14. [[#Explique o que é o PMBOK e cite quais são os macroprocessos de gerenciamento de projetos.]]
@@ -112,13 +112,66 @@ Spam é um email indesejado, não solicitado, mas sem carga maliciosa, enquanto 
 
 ### Explique brevemente as seguintes normas:  
 -  BACEN 4658/4893
-- LGPD/GDPR  PCI:DSS  
+- LGPD/GDPR  
+- PCI:DSS  
 - SOX  
 - ISO 27001
 
-ISO 27001 define objetivos do controle de gerenciamento de segurança da informação, em doze domínios. Utiliza-se os objetivos de controle do padrão ISO 27001 para definir e publicar as políticas de segurança da empresa.
+**BACEN 4658/4893**
+
+A Resolução **BACEN 4658** entrou em vigor no dia 26 de abril de 2018, por decisão do Banco Central do Brasil. Ela estabelece as exigências para as instituições financeiras e quaisquer outras empresas autorizadas a funcionar pelo Bacen quanto a seus ambientes de tecnologia contra ataques cibernéticos.
+
+E não são apenas as instituições financeiras que devem seguir a 4658 — ela também vale para quaisquer prestadores de serviços que manipulem dados, informações sensíveis ou informações relevantes para o andamento das atividades operacionais das empresas regulamentadas pelo Banco Central.
+
+A Resolução **BACEN 4893/2021**, publicada em 26 de fevereiro de 2021, define sobre a Política de Segurança Cibernética e sobre os requisitos para a contratação de serviços de processamento e armazenamento de dados e de computação em nuvem a serem observados pelas instituições autorizadas a funcionar pelo Banco Central do Brasil. As Empresas cadastradas como Instituições Financeiras junto ao Bacen devem estabelecer plano de ação e de resposta a incidentes
+
+**PCI DSS**
+
+O padrão de segurança de dados do setor de cartões de pagamento (PCI DSS) é um conjunto de regras contratuais que regem como proteger dados de cartão de crédito, à medida que comerciantes e bancos fazem a transação. O PCI DSS é um padrão voluntário (em teoria) e comerciantes/fornecedores podem escolher se desejam cumprir o padrão. No entanto, a não conformidade do fornecedor pode resultar em taxas de transações significativamente maiores, multas de até US $500.000 e, possivelmente, até mesmo na perda da capacidade de processar cartões de crédito.
+
+Governado pelo Conselho de Padrões de Segurança da Indústria de Cartões de Pagamento (PCI SSC), o esquema de conformidade visa proteger transações de cartão de crédito e débito contra roubo de dados e fraude.
+
+A certificação PCI garante a segurança dos dados dos cartões de sua empresa por meio de um conjunto de requisitos estabelecidos pelo PCI SSC. Isso inclui várias práticas recomendadas comumente conhecidas, como:
+
+-   Instalação de firewall
+-   Criptografia de transmissões de dados
+-   Uso de software antivírus
+
+Além disso, as empresas devem restringir o acesso aos dados do titular do cartão e monitorar o acesso aos recursos da rede.
+
+A conformidade com o PCI  é dividida em quatro níveis, com base no número anual de transações de cartão de crédito ou débito que uma empresa processa. O nível de classificação determina o que uma empresa precisa fazer para permanecer em conformidade.
+
+![[PCI DSS.png]]
+
+**Sarbanes-Oxley Act (SOX)**
+
+Depois de vários escândalos de contabilidade nos EUA, o congresso aprovou a Lei Sarbanes-Oxley (SOX). A finalidade da SOX foi para reformular os padrões de contabilidade financeira e empresarial e foi direcionada especificamente aos padrões das empresas de capital aberto nos Estados Unidos.
+
+**ISO 27001**
+
+Os padrões ISO 27000 descrevem a implementação de um sistema de gerenciamento de segurança da informação abrangente (ISMS). Um ISMS consiste em todos os controles administrativos, técnicos e operacionais para manter a informação segura dentro de uma empresa.
+
+ISO 27001 define objetivos do controle de gerenciamento de segurança da informação, em doze domínios.  Esses doze domínios servem para organizar, em alto nível, as vastas áreas de informações cobertas pela segurança da informação.
 
 ### Quais são as fases do ciclo de resposta a incidentes de acordo com o NIST 800-61 REV 2?
+
+- Fase 1: Preparação
+
+- Fase 2: Detecção e Análise
+
+A detecção começa quando é descoberto o incidente. A detecção adequada inclui como o incidente ocorreu, quais dados estavam envolvidos e quais sistemas estavam envolvidos. A análise de incidente ajuda a identificar a origem, extensão, impacto e detalhes de uma violação de dados.
+
+- Fase 3: Contenção, erradicação e recuperação
+
+Os esforços de contenção incluem ações imediatas realizadas, como desconectar um sistema da rede para parar o vazamento de informações.
+
+Depois de identificar a violação, a empresa precisa contê-la e erradicá-la. Isso pode exigir período de inatividade adicional para os sistemas. A fase de recuperação inclui as medidas que a empresa precisa tomar para resolver a violação e restaurar os sistemas envolvidos. Depois da solução, a empresa precisa restaurar todos os sistemas ao seu estado original, antes da violação.
+
+- Fase 4: Atividade pós incidente
+
+Depois de restaurar todas as operações a um estado normal, a empresa deve examinar a causa do incidente. Um exame das lições aprendidas pode ajudar a empresa a se preparar melhor, melhorando o plano de resposta a incidente.
+
+Para mais informações: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf
 
 ### Descreva o que é o CIS Controls v8.
 
