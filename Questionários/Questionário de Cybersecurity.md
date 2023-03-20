@@ -2,19 +2,19 @@
 - [x] 2. [[#O que é não repúdio? Qual sua importância para segurança da informação?]] 
 - [x] 3. [[#O que é MFA? Qual sua utilidade para segurança da informação?]]
 - [x] 4. [[#O que é um ataque DDoS? Cite um exemplo real.]]
-- [ ] 5. [[#O que é uma vulnerabilidade zero-day? Qual seu impacto na segurança da informação?]]
+- [x] 5. [[#O que é uma vulnerabilidade zero-day? Qual seu impacto na segurança da informação?]]
 - [x] 6. [[#Aponte a principal característica ou a diferença de:]]
 - [x] 7. [[#O que é engenharia social? Cite 03 técnicas de engenharia social.]]
 - [x] 8. [[#Qual a diferença entre um spam, um phishing e um spear phishing?]]
 - [ ] 9. [[#Descreva como um atacante poderia levantar informações para lançar um spear phishing em uma grande empresa listada na bolsa de valores.]]
-- [ ] 10. [[#Explique brevemente as seguintes normas:]]
+- [x] 10. [[#Explique brevemente as seguintes normas:]]
 - [x] 11. [[#Quais são as fases do ciclo de resposta a incidentes de acordo com o NIST 800-61 REV 2?]]
 - [ ] 12. [[#Descreva o que é o CIS Controls v8.]]
 - [ ] 13.  [[#Explique o que é o NIST CSF.]]
 - [ ] 14. [[#Explique o que é o PMBOK e cite quais são os macroprocessos de gerenciamento de projetos.]]
 - [x] 15. [[#Explique o que é um ativo, uma vulnerabilidade e uma ameaça. Relacione os três em um exemplo.]]
 - [ ] 16. [[#Explique o que é um APT e cite um exemplo real.]]
-- [ ] 17. [[#Quais são os fatores de autenticação? Cite exemplos reais de sua utilização.]]
+- [x] 17. [[#Quais são os fatores de autenticação? Cite exemplos reais de sua utilização.]]
 - [ ] 18. [[#Aponte as diferenças entre os protocolos TCP e UDP. Depois aponte 02 casos de uso para cada um dos protocolos.]]
 - [ ] 19. [[#Cite um exemplo de um ator de ameaça sofisticado e um simples. Explique a natureza da sofisticação.]]
 - [ ] 20.  [[#O que é o OWASP TOP 10? Cite pelo menos 02 itens presentes no OWASP TOP 10.]]
@@ -35,7 +35,7 @@
 - [ ] 35.
 - [x] 36. [[#O que é um WAF? Qual sua principal função?]]
 - [x] 37. [[#O que é um SIEM? Qual sua principal função?]]
-- [ ] 38. [[#Explique para que serve e como funciona uma DMZ.]]
+- [x] 38. [[#Explique para que serve e como funciona uma DMZ.]]
 - [ ] 39.
 - [ ] 40.
 - [ ] 41.
@@ -82,7 +82,7 @@ Um exemplo real foi o ataque sofrido pela AWS em fevereiro de 2020 onde em seu �
 
 ### O que é uma vulnerabilidade zero-day? Qual seu impacto na segurança da informação?
 
-
+São vulnerabilidades até então desconhecidas pelos fornecedores e, portanto, sem proteção adequada. Durante o tempo que os fornecedores de software demoram para desenvolver e liberar um patch, a rede está vulnerável a essas explorações. 
 
 ### Aponte a principal característica ou a diferença de:  
   
@@ -193,6 +193,10 @@ Exemplos:
 
 ### Quais são os fatores de autenticação? Cite exemplos reais de sua utilização.
 
+Algo que você **sabe** - ex: senha
+Algo que você **tem** - ex: token
+Algo que você **é** - ex: biometria
+
 ### Aponte as diferenças entre os protocolos TCP e UDP.  Depois aponte 02 casos de uso para cada um dos protocolos.
 
 
@@ -281,6 +285,10 @@ Onde buscar treinamento?
 ### Explique para que serve e como funciona uma DMZ.
  
 Zona desmilitarizada ou DMZ é uma área intermediária entre a rede interna (confiável) e externa (não confiável). Sua função é manter os serviços que possuem acesso externo separados da rede local.
+
+Uma rede DMZ fornece um buffer entre a Internet e a rede privada de uma organização. A DMZ é isolada por um gateway de segurança, como um firewall, que filtra o tráfego entre a DMZ e uma LAN. O servidor DMZ padrão é protegido por outro gateway de segurança que filtra o tráfego proveniente de redes externas.
+
+Se um invasor conseguir penetrar no firewall externo e comprometer um sistema na DMZ, ele também terá que passar por um firewall interno antes de obter acesso a dados corporativos confidenciais.
 
 39. **O que é um purple team?**
 
