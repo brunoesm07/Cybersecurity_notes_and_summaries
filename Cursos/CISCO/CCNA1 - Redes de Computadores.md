@@ -141,7 +141,7 @@ Os protocolos de rede definem um formato comum e um conjunto de regras para a tr
 
 ## Modelos de Camadas
 
-![[Modelos de Camadas.png]]
+![](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/8f761d5b48ec3c7b8c01e2472a7fe65da72590d7/assets/Modelos%20de%20Camadas.png)
 
 ### Modelo de Referência OSI
 
@@ -157,7 +157,7 @@ Os protocolos que compõem a suíte de protocolos TCP/IP também podem ser descr
 
 ## Protocolo TCP/IP
 
-![[padroes.png]]
+![](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/8f761d5b48ec3c7b8c01e2472a7fe65da72590d7/assets/padroes.png)
 
 ### Camada de aplicação
 
@@ -264,7 +264,7 @@ Os endereços IPv4 começam como binários, uma série de apenas 1s e 0s. Eles s
 
 Para entender endereços IPv6 e endereços MAC Ethernet, você deve ser capaz de converter hexadecimal para decimal e vice-versa. Assim como decimal é um sistema numérico de base dez, hexadecimal é um sistema de dezesseis bases.
 
-![[hexadecimal.png]]
+![](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/8f761d5b48ec3c7b8c01e2472a7fe65da72590d7/assets/hexadecimal.png)
 
 # Modelo OSI
 
@@ -340,7 +340,7 @@ Ela opera na camada de enlace de dados e na camada física. Os padrões Ethernet
 
 O tamanho mínimo de quadro Ethernet é 64 bytes e o máximo é 1518 bytes. Isso inclui todos os bytes do campo de endereço MAC de destino através do campo FCS (Frame Check Sequence). Se o tamanho de um quadro transmitido for menor que o mínimo ou maior que o máximo, o dispositivo receptor descarta o quadro.
 
-![[quadro ethernet.png]]
+![](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/8f761d5b48ec3c7b8c01e2472a7fe65da72590d7/assets/quadro%20ethernet.png)
 
 Quando os protocolos da camada superior se comunicam uns com os outros, os dados fluem para baixo pelas camadas OSI (Open Systems Interconnection) e são encapsulados dentro de um quadro da Camada 2. A composição do quadro depende do tipo de acesso ao meio. Por exemplo, se os protocolos de camada superior forem TCP/IP e o acesso ao meio for Ethernet, o encapsulamento do quadro da Camada 2 será Ethernet II. Isso é comum em um ambiente de LAN.
 
