@@ -219,7 +219,15 @@ Algo que você **é** - ex: biometria
 29. **Você assumiu como líder de cibersegurança em uma empresa de tecnologia emergente, quais seriam as principais medidas que você tomaria nos primeiros 100 dias de trabalho?**
 30. **O que é Cyber Kill Chain? Qual sua utilidade? Ela se aplica principalmente a qual tipo de adversário?**
 31. **O que é MITRE ATT&CK? Qual sua importância para a comunidade de segurança da informação?**
-32. **Explique com detalhes o que é, onde e como é utilizado o "Three-way handshake".**
+
+### Explique com detalhes o que é, onde e como é utilizado o "Three-way handshake".
+
+- **Etapa 1. SYN** - O cliente iniciador requisita uma sessão de comunicação cliente-servidor com o servidor.
+- **Etapa 2. ACK e SYN** - O servidor confirma a sessão de comunicação cliente-servidor e requisita uma sessão de comunicação de servidor-cliente.
+- **Etapa 3. ACK** - O cliente iniciador confirma a sessão de comunicação de servidor-cliente.
+
+![[Three-way handshake.png]]
+
 33. **O que é CTI? Cite uma aplicação em cada nível, estratégico, tático e operacional.**
 34. **Descreva de maneira detalhada como você iniciaria um ataque a um website.**
 35. **Descreva de maneira detalhada como você iniciaria um ataque a uma empresa prestes a fazer um IPO e aponte o que você buscaria nesse ataque.**

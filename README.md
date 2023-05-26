@@ -83,6 +83,7 @@ Este repositório foi criado com o objetivo de compartilhar e manter uma fonte d
 
 #### CISCO
 - [Anotações]() do curso Cybersecurity Essentials
+- [Anotações]() do curso CCNA1 Redes de Computadores
 
 #### UNIVESP
 ###### [Curso Segurança da Informação](https://youtube.com/playlist?list=PLxI8Can9yAHenoHipBXp9XuJY4BBxBUPQ)
