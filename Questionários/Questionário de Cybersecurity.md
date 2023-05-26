@@ -226,7 +226,7 @@ Algo que você **é** - ex: biometria
 - **Etapa 2. ACK e SYN** - O servidor confirma a sessão de comunicação cliente-servidor e requisita uma sessão de comunicação de servidor-cliente.
 - **Etapa 3. ACK** - O cliente iniciador confirma a sessão de comunicação de servidor-cliente.
 
-![[Three-way handshake.png]]
+![](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/05d24f0db2e0006fecd5a59f416cc4cf4ac376cb/assets/Three-way%20handshake.png)
 
 33. **O que é CTI? Cite uma aplicação em cada nível, estratégico, tático e operacional.**
 34. **Descreva de maneira detalhada como você iniciaria um ataque a um website.**
