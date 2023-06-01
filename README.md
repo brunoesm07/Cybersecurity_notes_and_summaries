@@ -84,7 +84,7 @@ Este repositório foi criado com o objetivo de compartilhar e manter uma fonte d
 #### CISCO
 - [Anotações](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/ca0ba63260833392ed91abc98e5a576c8c83c1e6/Cursos/CISCO/Cybersecurity%20Essentials%20-%20CISCO.md) do curso Cybersecurity Essentials
 - [Anotações](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Cursos/CISCO/CCNA1%20-%20Redes%20de%20Computadores.md) do curso CCNA1 Redes de Computadores
-- [Anotações](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/f5e2ad89f3bfaa91d48a7e30d3f58bbe6b2370ad/Cursos/CISCO/Gerenciamento%20de%20Amea%C3%A7as%20Cibern%C3%A9ticas.md) do curso Gerenciamento de Ameaças Cibernéticas
+- [Anotações](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/Cursos/CISCO/Gerenciamento%20de%20Amea%C3%A7as%20Cibern%C3%A9ticas.md) do curso Gerenciamento de Ameaças Cibernéticas
 
 #### UNIVESP
 ###### [Curso Segurança da Informação](https://youtube.com/playlist?list=PLxI8Can9yAHenoHipBXp9XuJY4BBxBUPQ)
