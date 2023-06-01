@@ -366,7 +366,7 @@ Um switch cria uma tabela de endereços MAC inspecionando os quadros da camada 2
 
 ### Camada de Rede (camada 3)
 
-A camada de rede, ou Camada OSI 3, fornece serviços para permitir que dispositivos finais troquem dados entre redes.
+A camada de rede, ou Camada OSI 3, fornece serviços para permitir que dispositivos finais troquem dados entre redes.  IPv4 e IPv6 são os principais protocolos de comunicação de camada de rede.
 
 > Os pacotes IP podem trafegar por diferentes meios físicos. - sinais elétricos, sinais ópticos ou sinais de rádio
 
@@ -376,3 +376,35 @@ Para realizar comunicações de ponta a ponta através dos limites da rede, os p
 -   **Encapsulamento -** A camada de rede encapsula a unidade de dados de protocolo (PDU) da camada de transporte em um pacote. O processo de encapsulamento adiciona informações de cabeçalho IP, como os endereços IP dos hosts origem (emissor) e destino (receptor). O processo de encapsulamento é executado pela origem do pacote IP.
 -   **Roteamento -** A camada de rede fornece serviços para direcionar os pacotes para um host de destino em outra rede. Para trafegar para outras redes, o pacote deve ser processado por um roteador. A função do roteador é escolher o melhor caminho e direcionar os pacotes para o host de destino em um processo conhecido como roteamento. Um pacote pode atravessar muitos roteadores antes de chegar ao host de destino. Cada roteador que um pacote atravessa para chegar ao host de destino é chamado de salto.
 -   **Desencapsulamento -** Quando o pacote chega na camada de rede do host de destino, o host verifica o cabeçalho IP do pacote. Se o endereço IP de destino no cabeçalho corresponder ao seu próprio endereço IP, o cabeçalho IP será removido do pacote. Depois que o pacote é desencapsulado pela camada de rede, a PDU resultante da Camada 4 é transferida para o serviço apropriado na camada de transporte. O processo de desencapsulamento é executado pelo host de destino do pacote IP.
+
+**PACOTE IPv4**
+
+Um cabeçalho de pacote IPv4 consiste em campos que contêm informações sobre o pacote. Esses campos contêm números binários que são examinados pelo processo da Camada 3. Os valores binários de cada campo identificam várias configurações do pacote IP. Campos significativos no cabeçalho IPv6 incluem: versão, DS, soma de verificação de cabeçalho, TTL, protocolo e os endereços IPv4 de origem e destino.
+
+**NAT (Network Address Translation)** 
+
+A NAT é uma forma de vários dispositivos compartilharem um único endereço IPv4 público. No entanto, como o endereço IPv4 público é compartilhado, o endereço IPv4 de um host de rede interna fica oculto. Isso pode ser problemático para tecnologias que exigem conectividade de ponta a ponta.
+
+Embora o NAT tenha ampliado a vida útil do IPv4, ele só se destinava a ser um mecanismo de transição para o IPv6. O NAT em suas várias implementações cria complexidade adicional na rede, criando latência e dificultando a solução de problemas.
+
+> O IPV6 trouxe como melhorias o aumento do espaço de endereçamento, a manipulação aprimorada de pacotes com a utilização de um cabeçalho mais simples e a eliminação da necessidade de NAT.
+
+**ENDEREÇO IPv4**
+
+Os bits na parte de rede do endereço devem ser iguais em todos os dispositivos que residem na mesma rede. Os bits na parte de host do endereço devem ser exclusivos para identificar um host específico dentro de uma rede. Se dois hosts tiverem o mesmo padrão de bits na parte de rede especificada do fluxo de 32 bits, esses dois hosts residirão na mesma rede.
+
+![[endereçoIPv4.png]]
+
+Para atribuir um endereço IPv4 a um host é requerido o seguinte:
+
+- **Endereço IPv4** - este é o endereço IPv4 exclusivo do host.
+- **Máscara de sub-rede** - É usada para identificar a parte da rede / host do endereço IPv4.
+
+Todos os dispositivos dentro da mesma rede devem ter a mesma máscara de sub-rede e os mesmos bits de rede. Somente os bits do host serão diferentes e devem ser exclusivos.
+
+Observe que na tabela, há um primeiro e último endereço de host:
+
+- **Primeiro endereço de host** - Este primeiro host dentro de uma rede tem todos os 0 bits com o último bit (mais à direita) como um bit. Exemplo: 192.168.10.1/24.
+- **Último endereço de host** - Este último host dentro de uma rede tem todos os 1 bits com o último bit (mais à direita) como um bit 0. Exemplo: 192.168.10.254/24.
+
+Quaisquer endereços entre e inclusive, exemplo 192.168.10.1/24 a 192.168.10.254/24 podem ser atribuídos a um dispositivo na rede.
