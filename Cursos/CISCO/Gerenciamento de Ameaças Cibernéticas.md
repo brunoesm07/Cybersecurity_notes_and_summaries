@@ -342,7 +342,7 @@ As provas são ainda classificadas como:
 
 **Prioridade de coleta**
 
-![[coleta de evidencias.png]]
+![](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/assets/coleta%20de%20evidencias.png)
 
 Um exemplo da ordem de coleta de evidências mais volátil a menos volátil é o seguinte:
 
@@ -358,7 +358,7 @@ Um exemplo da ordem de coleta de evidências mais volátil a menos volátil é o
 
 A Cyber Kill Chain foi desenvolvida pela Lockheed Martin para identificar e prevenir intrusões cibernéticas. Existem sete etapas para o Cyber Kill Chain.
 
-![[cyber kill chain.png]]
+![](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/main/assets/cyber%20kill%20chain.png)
 
 ### Reconhecimento
 
