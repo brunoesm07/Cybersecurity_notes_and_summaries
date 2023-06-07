@@ -125,6 +125,11 @@ O `?` exibe uma lista de comandos disponíveis em cada modo de comando, como tam
 
 Os protocolos de rede definem um formato comum e um conjunto de regras para a troca de mensagens entre dispositivos. Os protocolos são implementados por dispositivos finais e dispositivos intermediários em software, hardware ou ambos. Cada protocolo de rede tem sua própria função, formato e regras para comunicações.
 
+> "Um protocolo é um acordo entre as partes que se comunicam, estabelecendo como se dará a comunicação. A violação do protocolo dificultará a comunicação, se não torná-la completamente impossível." - Tanenbaum, 2011
+
+
+Um conjunto de camadas e protocolos é chamado **arquitetura de rede.**
+
 | **Tipo de Protocolo** | **Descrição** | 
 | -------------------- | ------------| 
 | **Protocolos de comunicação em rede** | Os protocolos permitem que dois ou mais dispositivos se comuniquem através de um ou mais redes. A família de tecnologias Ethernet envolve uma variedade de protocolos como IP, Transmission Control Protocol (TCP), HyperText Protocolo de transferência (HTTP) e muito mais. |
@@ -147,6 +152,8 @@ Os protocolos de rede definem um formato comum e um conjunto de regras para a tr
 
 O modelo de referência OSI fornece uma extensa lista de funções e serviços que podem ocorrer em cada camada. Esse tipo de modelo fornece consistência em todos os tipos de protocolos e serviços de rede, descrevendo o que deve ser feito em uma camada específica, mas não prescrevendo como deve ser realizado.
 
+O modelo OSI propriamente dito não é uma arquitetura de rede, pois não especifica os serviços e  protocolos exatos que devem ser usados em cada camada.
+
 ### Modelo de Protocolo TCP/IP
 
 O modelo TCP/IP é um modelo de protocolo porque descreve as funções que ocorrem em cada camada de protocolos dentro da suíte TCP/IP. O TCP/IP também é usado como um modelo de referência.
@@ -160,6 +167,8 @@ Os protocolos que compõem a suíte de protocolos TCP/IP também podem ser descr
 ![](https://github.com/brunoesm07/Cybersecurity_notes_and_summaries/blob/8f761d5b48ec3c7b8c01e2472a7fe65da72590d7/assets/padroes.png)
 
 ### Camada de aplicação
+
+Ela contém todos os protocolos de nível mais alto. Dentre eles estão o protocolo de terminal virtual (TELNET), o protocolo de transferência de arquivos (FTP) e o protocolo de correio eletrônico (SMTP).
 
 Sistema de nomes
 
@@ -191,6 +200,8 @@ Web e serviço Web
 
 ### Camada de transporte
 
+A finalidade dessa camada é permitir que as entidades pares dos hosts de origem e de destino mantenham uma conversação, exatamente como acontece na camada de transporte OSI. 
+
 Conexão orientada
 
 -   **TCP** - Protocolo de controle de transmissão. Permite a comunicação confiável entre processos executados em hosts separados e fornece transmissões confiáveis e reconhecidas que confirmam a entrega bem-sucedida.
@@ -200,6 +211,8 @@ Sem Conexão
 -   **UDP** - Protocolo de datagrama do usuário. Permite que um processo em execução em um host envie pacotes para um processo em execução em outro host. No entanto, o UDP não confirma a transmissão bem-sucedida do datagrama.
 
 ### Camada de Internet
+
+A camada internet integra toda a arquitetura, mantendo-a unida. A camada internet define um formato de pacote oficial e um protocolo chamado IP (Internet Protocol), mais um protocolo que o acompanha, chamado ICMP (Internet Control Message Protocol).
 
 Protocolo IP (Internet Protocol)
 
@@ -298,10 +311,14 @@ Os termos usados para medir a qualidade da **largura de banda** incluem:
 
 A camada de enlace de dados é responsável pela placa de interface de rede (NIC) para comunicações de placa de interface de rede. **A camada de enlace de dados prepara os dados de rede para a rede física.**
 
+> A principal tarefa da camada de enlace de dados é transformar um canal de transmissão normal em uma linha que pareça livre de erros de transmissão.
+
 A camada de enlace de dados é responsável pela troca de quadros entre os nós em uma mídia de rede física. A camada de enlace de dados executa dois serviços básicos:
 
 -   Ele aceita pacotes da camada 3 e os encapsula em quadros.
 -   Ele fornece controle de acesso à mídia e realiza a detecção de erros.
+
+Se o serviço for confiável, o receptor confirmará a recepção correta de cada quadro, enviando de volta um quadro de confirmação.
 
 As organizações de engenharia que definem padrões e protocolos abertos que se aplicam à camada de acesso à rede incluem: IEEE, ITU, ISO e ANSI.
 
@@ -377,6 +394,8 @@ Para realizar comunicações de ponta a ponta através dos limites da rede, os p
 -   **Roteamento -** A camada de rede fornece serviços para direcionar os pacotes para um host de destino em outra rede. Para trafegar para outras redes, o pacote deve ser processado por um roteador. A função do roteador é escolher o melhor caminho e direcionar os pacotes para o host de destino em um processo conhecido como roteamento. Um pacote pode atravessar muitos roteadores antes de chegar ao host de destino. Cada roteador que um pacote atravessa para chegar ao host de destino é chamado de salto.
 -   **Desencapsulamento -** Quando o pacote chega na camada de rede do host de destino, o host verifica o cabeçalho IP do pacote. Se o endereço IP de destino no cabeçalho corresponder ao seu próprio endereço IP, o cabeçalho IP será removido do pacote. Depois que o pacote é desencapsulado pela camada de rede, a PDU resultante da Camada 4 é transferida para o serviço apropriado na camada de transporte. O processo de desencapsulamento é executado pelo host de destino do pacote IP.
 
+De modo mais geral, a qualidade do serviço fornecido (atraso, tempo em trânsito, instabilidade etc.) também é uma questão da camada de rede.
+
 **PACOTE IPv4**
 
 Um cabeçalho de pacote IPv4 consiste em campos que contêm informações sobre o pacote. Esses campos contêm números binários que são examinados pelo processo da Camada 3. Os valores binários de cada campo identificam várias configurações do pacote IP. Campos significativos no cabeçalho IPv6 incluem: versão, DS, soma de verificação de cabeçalho, TTL, protocolo e os endereços IPv4 de origem e destino.
@@ -408,3 +427,18 @@ Observe que na tabela, há um primeiro e último endereço de host:
 - **Último endereço de host** - Este último host dentro de uma rede tem todos os 1 bits com o último bit (mais à direita) como um bit 0. Exemplo: 192.168.10.254/24.
 
 Quaisquer endereços entre e inclusive, exemplo 192.168.10.1/24 a 192.168.10.254/24 podem ser atribuídos a um dispositivo na rede.
+
+### Camada de Transporte (camada 4)
+
+A função básica da camada de transporte é aceitar dados da camada acima dela, dividi-los em unidades menores, se for preciso, repassar essas unidades à camada de rede e garantir que todos os fragmentos chegarão corretamente à outra extremidade.
+
+### Camada de Sessão (camada 5)
+
+A camada de sessão permite que os usuários em diferentes máquinas estabeleçam sessões de comunicação entre eles. Uma sessão oferece diversos serviços, inclusive o controle de diálogo (mantendo o controle de quem deve transmitir em cada momento), o gerenciamento de tokens (impedindo que duas partes tentem executar a mesma operação crítica ao mesmo tempo) e a sincronização (realizando a verificação periódica de longas transmissões para permitir que elas continuem a partir do ponto em que estavam ao ocorrer uma falha e a subsequente recuperação).
+
+### Camada de Apresentação (camada 6)
+
+### Camada de Aplicação (camada 7)
+
+A camada de aplicação contém uma série de protocolos comumente necessários para os usuários. Um protocolo de aplicação amplamente utilizado é o HTTP (HyperText Transfer Protocol), que constitui a base da World Wide Web.
+
