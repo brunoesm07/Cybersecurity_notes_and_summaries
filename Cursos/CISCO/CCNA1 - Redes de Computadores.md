@@ -442,3 +442,75 @@ A camada de sessão permite que os usuários em diferentes máquinas estabeleça
 
 A camada de aplicação contém uma série de protocolos comumente necessários para os usuários. Um protocolo de aplicação amplamente utilizado é o HTTP (HyperText Transfer Protocol), que constitui a base da World Wide Web.
 
+# Ameaças à Segurança e Vulnerabilidades
+
+Redes de computadores com e sem fio são essenciais para as atividades diárias. Ataques em uma rede podem ser devastadores e resultar em perda de tempo e dinheiro devido a danos ou roubo de informações ou ativos importantes.
+
+Os invasores podem obter acesso a uma rede através de vulnerabilidades de software, ataques de hardware ou adivinhando o nome de usuário e a senha de alguém. Os invasores que obtêm acesso modificando o software ou explorando vulnerabilidades são chamados de agentes de ameaças.
+
+## Tipos de Vulnerabilidades
+
+Existem três principais vulnerabilidades ou fraquezas: política tecnológica, configuração e segurança. Todas essas três fontes de vulnerabilidades podem deixar uma rede ou dispositivo aberto a vários ataques.
+
+## Tipos de Malware
+
+Malware é a abreviação de software malicioso. É um código ou software projetado especificamente para danificar, interromper, roubar ou infligir ações “ruins” ou ilegítimas em dados, hosts ou redes. Vírus, worms e cavalos de Tróia são tipos de malware.
+
+**Vírus**
+
+Um vírus de computador é um tipo de malware que se propaga inserindo uma cópia de si mesmo dentro de outro programa e se tornando parte dele. Ele se dissemina de um computador para outro, deixando infecções por onde passa. Os vírus podem variar em gravidade, causando efeitos levemente irritantes, danificando dados ou software e causando condições de negação de serviço (DoS). Quase todos os vírus estão anexados a um arquivo executável, o que significa que o vírus pode existir em um sistema, mas não estar ativo ou ser capaz de se disseminar até que o usuário execute ou abra o arquivo ou o programa hospedeiro mal-intencionado. Quando o código hospedeiro é executado, o código viral é executado também. Normalmente, o programa host continua funcionando depois que o vírus o infecta. No entanto, alguns vírus sobrescrevem outros programas com cópias deles mesmos, o que destrói todo o programa hospedeiro. Os vírus se espalham quando o software ou documento ao qual estão conectados é transferido de um computador para outro usando a rede, um disco, compartilhamento de arquivos ou anexos de e-mail infectados.
+
+**Worms**
+
+Os worms de computador são similares aos vírus na reprodução de cópias funcionais de si mesmos e podem causar o mesmo tipo de dano. Ao contrário dos vírus, que necessitam que um arquivo infectado se espalhe, **worms são softwares independentes e não necessitam de um programa hospedeiro ou ajuda humana para se propagarem**. Um worm não precisa estar anexado a um programa para infectar um hospedeiro e entrar em um computador usando uma vulnerabilidade no sistema. Os worms utilizam os recursos do sistema para viajar pela rede sem ajuda.
+
+**Cavalos de Tróia**
+
+Um cavalo de Troia é outro tipo de malware que recebeu o nome do cavalo de madeira usado pelos gregos para invadirem Troia. É uma parte perigosa do software que parece legítima. Os usuários são, em geral, enganados carregando e executando-os em seus sistemas. Depois de ativado, ele pode causar vários ataques ao host, desde irritar o usuário (com janelas pop-up excessivas ou alterar a área de trabalho) até danificá-lo (excluir arquivos, roubar dados ou ativar e espalhar outros malwares, como vírus). Cavalos de Troia também são conhecidos por criarem portas dos fundos (back doors) que permitem o acesso de usuários mal-intencionados ao sistema.
+
+Ao contrário de vírus e worms, os cavalos de Tróia não se reproduzem infectando outros arquivos. Eles se auto-replicam. Os cavalos de Tróia devem se espalhar pela interação do usuário, como abrir um anexo de e-mail ou fazer o download e executar um arquivo da Internet.
+
+## Ataques à rede
+
+Além de ataques de códigos mal-intencionados, também é possível que as redes se tornem vítimas de vários ataques à rede. Os ataques à rede podem ser classificados em três categorias principais:
+
+- **Ataques de reconhecimento** - A descoberta e o mapeamento de sistemas, serviços ou vulnerabilidades.
+- **Ataques de acesso** - A manipulação não autorizada de dados, acesso ao sistema ou privilégios do usuário.
+- **Negação de serviço** - A desativação ou corrupção de redes, sistemas ou serviços.
+
+## Mitigações de ataque à rede
+
+### A abordagem de defesa em camadas
+
+Para atenuar os ataques de rede, primeiro você deve proteger dispositivos, incluindo roteadores, switches, servidores e hosts. A maioria das organizações emprega uma abordagem de defesa profunda (também conhecida como abordagem em camadas) à segurança. Isso requer uma combinação de dispositivos e serviços de rede trabalhando em conjunto.
+
+Vários dispositivos e serviços de segurança são implementados para proteger os usuários e ativos de uma organização contra ameaças TCP / IP.
+
+- **VPN**- Um roteador é usado para fornecer serviços VPN seguros com sites corporativos e suporte a acesso remoto para usuários remotos usando túneis criptografados seguros.
+- **ASA Firewall**- Este dispositivo dedicado fornece serviços de firewall com estado. Ele garante que o tráfego interno possa sair e voltar, mas o tráfego externo não pode iniciar conexões com hosts internos.
+- **IPS** - Um sistema de prevenção contra intrusões (IPS) monitora o tráfego de entrada e saída procurando malwares, assinaturas de ataques à rede e muito mais. Se reconhecer uma ameaça, ela poderá imediatamente pará-la.
+- **ESA/WSA** - O dispositivo de segurança de e-mail (ESA) filtra spam e e-mails suspeitos. O WSA (Web Security Appliance) filtra sites de malware conhecidos e suspeitos na Internet.
+- **servidor AAA** - Este servidor contém um banco de dados seguro de quem está autorizado a acessar e gerenciar dispositivos de rede. Os dispositivos de rede autenticam usuários administrativos usando esse banco de dados.
+
+### Manter Backups
+
+Fazer backup de configurações e dados do dispositivo é uma das maneiras mais eficazes de se proteger contra a perda de dados. O backup de dados armazena uma cópia das informações de um computador em uma mídia removível de backup que pode ser guardada em um local seguro. Os dispositivos de infraestrutura devem ter backups de arquivos de configuração e imagens IOS em um servidor de arquivos FTP ou similar. Se o computador ou um hardware de roteador falhar, os dados ou a configuração podem ser restaurados usando a cópia de backup.
+
+### Atualizações de segurança (patches) de Sistemas Operacionais
+
+O meio mais eficaz de reduzir um ataque de worm é baixar as atualizações de segurança do sistema operacional do fornecedor e corrigir todos os sistemas vulneráveis. Uma solução para o gerenciamento de patches críticos de segurança é garantir que todos os sistemas finais baixem atualizações automaticamente.
+
+### Autenticação, autorização e auditoria
+
+Todos os dispositivos de rede devem ser configurados de forma segura para fornecer acesso apenas a indivíduos autorizados. Os serviços de segurança de rede de autenticação, autorização e auditoria (AAA ou "triplo A") fornecem a estrutura principal para configurar o controle de acesso nos dispositivos de rede.
+
+O AAA é uma maneira de controlar quem tem permissão para acessar uma rede (autenticar), quais ações eles executam enquanto acessam a rede (autorizar) e fazer um registro do que foi feito enquanto eles estão lá (auditoria).
+
+### Firewalls
+
+Um firewall é uma das ferramentas de segurança disponíveis mais eficazes na proteção dos usuários contra ameaças externas. Um firewall protege computadores e redes impedindo que tráfego indesejável entre em redes internas.
+
+- **Filtragem de pacotes** - Impede ou permite o acesso com base em endereços IP ou MAC;
+- **Filtragem de aplicativos** - impede ou permite o acesso por tipos de aplicativos específicos com base nos números de porta;
+- **Filtragem de URL** - impede ou permite o acesso a sites com base em URLs ou palavras-chave específicas;
+- **Inspeção de pacotes com estado (SPI)** - Os pacotes recebidos devem ser respostas legítimas às solicitações dos hosts internos. Os pacotes não solicitados são bloqueados, a menos que especificamente permitidos. O SPI também pode incluir o recurso de reconhecer e filtrar tipos específicos de ataques, como negação de serviço (DoS).
